@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Дин Рахимов — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0d0d14;
+    --bg2:       #13131f;
+    --bg3:       #1a1a2e;
+    --border:    rgba(255,255,255,0.07);
+    --blue:      #4f8ef7;
+    --violet:    #8b5cf6;
+    --cyan:      #22d3ee;
+    --text:      #e8e8f0;
+    --muted:     #6b7280;
+    --card:      #16162a;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── NOISE TEXTURE ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── GLOW ORBS ── */
+  .orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.18;
+  }
+  .orb-1 { width: 600px; height: 600px; background: var(--violet); top: -200px; right: -200px; }
+  .orb-2 { width: 400px; height: 400px; background: var(--blue);   bottom: 10%; left: -150px; }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 18px 48px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(13,13,20,0.7);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: var(--blue);
+    letter-spacing: 0.08em;
+    text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); }
+
+  /* ── SECTIONS ── */
+  section { position: relative; z-index: 1; }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    display: flex; align-items: center;
+    padding: 120px 48px 80px;
+    max-width: 1100px; margin: 0 auto;
+    gap: 60px;
+  }
+  .hero-text { flex: 1; }
+  .hero-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: var(--blue);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: block; width: 32px; height: 1px;
+    background: var(--blue);
+  }
+  h1 {
+    font-size: clamp(42px, 6vw, 72px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .hero-title-accent {
+    background: linear-gradient(135deg, var(--blue), var(--violet));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-sub {
+    font-size: 18px;
+    color: var(--muted);
+    margin: 20px 0 36px;
+    max-width: 480px;
+    font-weight: 400;
+  }
+  .hero-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
+  .tag {
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--bg3);
+    color: var(--muted);
+  }
+  .tag-blue   { border-color: rgba(79,142,247,0.35); color: var(--blue);   background: rgba(79,142,247,0.08); }
+  .tag-violet { border-color: rgba(139,92,246,0.35); color: #a78bfa;       background: rgba(139,92,246,0.08); }
+  .tag-cyan   { border-color: rgba(34,211,238,0.35); color: var(--cyan);   background: rgba(34,211,238,0.08); }
+
+  .hero-avatar {
+    width: 260px; height: 260px;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hero-avatar::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(79,142,247,0.15), rgba(139,92,246,0.15));
+  }
+  .hero-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* ── SOCIAL LINKS ── */
+  .social-links { display: flex; flex-wrap: wrap; gap: 12px; }
+  .social-btn {
+    display: flex; align-items: center; gap: 9px;
+    padding: 11px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+  }
+  .social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border-color: rgba(255,255,255,0.15);
+  }
+  .social-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .btn-github  { border-color: rgba(255,255,255,0.12); }
+  .btn-yt      { border-color: rgba(255,70,70,0.3);   color: #ff6b6b; }
+  .btn-artst   { border-color: rgba(139,92,246,0.3);  color: #a78bfa; }
+  .btn-insta   { border-color: rgba(240,90,160,0.3);  color: #f472b6; }
+
+  /* ── DIVIDER ── */
+  .section-divider {
+    max-width: 1100px; margin: 0 auto;
+    padding: 0 48px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── SECTION TITLE ── */
+  .section-wrap {
+    max-width: 1100px; margin: 0 auto;
+    padding: 80px 48px;
+  }
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--blue);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+
+  /* ── SKILLS GRID ── */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .skill-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .skill-card:hover { border-color: rgba(79,142,247,0.3); transform: translateY(-2px); }
+  .skill-card-icon { font-size: 24px; margin-bottom: 10px; }
+  .skill-card-title { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  .skill-card-items { display: flex; flex-wrap: wrap; gap: 6px; }
+  .skill-pill {
+    font-size: 11px; padding: 3px 9px;
+    border-radius: 100px;
+    background: var(--bg3);
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+
+  /* ── EXPERIENCE ── */
+  .exp-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 32px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+  }
+  .exp-card:hover { border-color: rgba(79,142,247,0.3); }
+  .exp-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 6px; gap: 16px; }
+  .exp-role { font-size: 17px; font-weight: 700; }
+  .exp-company { color: var(--blue); font-size: 14px; font-weight: 600; margin-bottom: 14px; }
+  .exp-period {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px; color: var(--muted);
+    background: var(--bg3); padding: 4px 10px;
+    border-radius: 100px; white-space: nowrap;
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .exp-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .exp-points { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .exp-points li {
+    font-size: 14px; color: #9ca3af;
+    padding-left: 16px; position: relative;
+  }
+  .exp-points li::before {
+    content: '→';
+    position: absolute; left: 0;
+    color: var(--blue); font-size: 12px;
+  }
+
+  /* ── PROJECTS GRID ── */
+  .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .project-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 24px;
+    display: flex; flex-direction: column;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .project-card:hover { border-color: rgba(139,92,246,0.4); transform: translateY(-3px); }
+  .project-icon { font-size: 28px; margin-bottom: 14px; }
+  .project-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+  .project-desc { font-size: 13px; color: var(--muted); margin-bottom: 16px; flex: 1; line-height: 1.55; }
+  .project-stack { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 16px; }
+  .project-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 13px; font-weight: 600;
+    color: var(--blue); text-decoration: none;
+    transition: gap 0.2s;
+  }
+  .project-link:hover { gap: 10px; }
+
+  /* ── PLATFORMS ── */
+  .platforms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+  .platform-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 24px;
+    text-decoration: none;
+    display: flex; flex-direction: column; gap: 12px;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  }
+  .platform-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+  }
+  .platform-card.pc-gh   { border-color: rgba(255,255,255,0.1);  }
+  .platform-card.pc-yt   { border-color: rgba(255,70,70,0.2);    }
+  .platform-card.pc-art  { border-color: rgba(139,92,246,0.25);  }
+  .platform-card.pc-inst { border-color: rgba(240,90,160,0.25);  }
+  .platform-card:hover.pc-gh   { border-color: rgba(255,255,255,0.25); box-shadow: 0 16px 40px rgba(255,255,255,0.05); }
+  .platform-card:hover.pc-yt   { border-color: rgba(255,70,70,0.5);    box-shadow: 0 16px 40px rgba(255,70,70,0.1); }
+  .platform-card:hover.pc-art  { border-color: rgba(139,92,246,0.5);   box-shadow: 0 16px 40px rgba(139,92,246,0.12); }
+  .platform-card:hover.pc-inst { border-color: rgba(240,90,160,0.5);   box-shadow: 0 16px 40px rgba(240,90,160,0.1); }
+  .platform-icon { font-size: 32px; }
+  .platform-name { font-size: 18px; font-weight: 700; color: var(--text); }
+  .platform-handle { font-size: 13px; color: var(--muted); font-family: 'Space Mono', monospace; }
+  .platform-desc { font-size: 13px; color: #6b7280; line-height: 1.5; }
+  .platform-arrow { font-size: 18px; color: var(--muted); margin-top: auto; transition: transform 0.2s; }
+  .platform-card:hover .platform-arrow { transform: translateX(4px); }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 48px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    position: relative; z-index: 1;
+  }
+  footer a { color: var(--blue); text-decoration: none; }
+
+  /* ── FADE IN ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .fade-up { animation: fadeUp 0.6s ease both; }
+  .delay-1 { animation-delay: 0.1s; }
+  .delay-2 { animation-delay: 0.2s; }
+  .delay-3 { animation-delay: 0.35s; }
+  .delay-4 { animation-delay: 0.5s; }
+
+  @media (max-width: 768px) {
+    nav { padding: 16px 20px; }
+    .nav-links { display: none; }
+    .hero { flex-direction: column-reverse; padding: 100px 20px 60px; gap: 32px; }
+    .hero-avatar { width: 120px; height: 120px; border-radius: 50%; align-self: center; }
+    h1 { font-size: 36px; }
+    .section-wrap { padding: 60px 20px; }
+    .section-divider { padding: 0 20px; }
+    footer { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">din.dev</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Навыки</a></li>
+    <li><a href="#experience">Опыт</a></li>
+    <li><a href="#projects">Проекты</a></li>
+    <li><a href="#platforms">Портфолио</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section>
+  <div class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow fade-up">AI · 3D · Dev</div>
+      <h1 class="fade-up delay-1">
+        Дин<br>
+        <span class="hero-title-accent">Рахимов</span>
+      </h1>
+      <p class="hero-sub fade-up delay-2">
+        Строю AI-пайплайны, генерирую визуальный контент и пишу серверный код. От ComfyUI workflow до Java backend.
+      </p>
+      <div class="hero-tags fade-up delay-2">
+        <span class="tag tag-blue">Generative AI</span>
+        <span class="tag tag-violet">3D / Technical Art</span>
+        <span class="tag tag-cyan">Software Dev</span>
+        <span class="tag">Узбекистан</span>
+      </div>
+      <div class="social-links fade-up delay-3">
+        <a href="https://github.com/CredibleRose" target="_blank" class="social-btn btn-github">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.youtube.com/@jalolrahimov2993" target="_blank" class="social-btn btn-yt">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+          YouTube
+        </a>
+        <a href="https://www.artstation.com/crediblerose20" target="_blank" class="social-btn btn-artst">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 002.164 1.333h13.457l-2.792-4.838H0zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.424 2.424 0 00-2.164-1.333H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467zm-11.129-3.462L7.428 4.858l-5.444 9.428h10.887z"/></svg>
+          ArtStation
+        </a>
+        <a href="https://www.instagram.com/crediblerose" target="_blank" class="social-btn btn-insta">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Instagram
+        </a>
+      </div>
+    </div>
+    <div class="hero-avatar fade-up delay-1">
+      <img src="https://avatars.githubusercontent.com/u/60051697?v=4" alt="Дин Рахимов">
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-label">Стек</div>
+    <h2 class="section-title">Ключевые навыки</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-icon">🤖</div>
+        <div class="skill-card-title">AI / Генеративные модели</div>
+        <div class="skill-card-items">
+          <span class="skill-pill">Stable Diffusion</span>
+          <span class="skill-pill">ComfyUI</span>
+          <span class="skill-pill">Flux</span>
+          <span class="skill-pill">WAN Animate</span>
+          <span class="skill-pill">Hunyuan 3D</span>
+          <span class="skill-pill">Qwen</span>
+          <span class="skill-pill">Local LLM deploy</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🎮</div>
+        <div class="skill-card-title">3D & Game Dev</div>
+        <div class="skill-card-items">
+          <span class="skill-pill">Blender</span>
+          <span class="skill-pill">3ds Max</span>
+          <span class="skill-pill">Unity 3D</span>
+          <span class="skill-pill">Unreal Engine</span>
+          <span class="skill-pill">C#</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">⚙️</div>
+        <div class="skill-card-title">Backend</div>
+        <div class="skill-card-items">
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Jersey</span>
+          <span class="skill-pill">Tomcat</span>
+          <span class="skill-pill">Maven</span>
+          <span class="skill-pill">H2 / SQL</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">REST API</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🌐</div>
+        <div class="skill-card-title">Frontend</div>
+        <div class="skill-card-items">
+          <span class="skill-pill">TypeScript</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">HTML / CSS</span>
+          <span class="skill-pill">SPA</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🐍</div>
+        <div class="skill-card-title">Другое</div>
+        <div class="skill-card-items">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Cypress (e2e)</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Linux</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-wrap">
+    <div class="section-label">Карьера</div>
+    <h2 class="section-title">Опыт работы</h2>
+
+    <div class="exp-card">
+      <div class="exp-header">
+        <div class="exp-role">Backend / Fullstack Developer</div>
+        <span class="exp-period">Апр 2022 — Сент 2022</span>
+      </div>
+      <div class="exp-company">Connective Games — Стажировка · 6 месяцев</div>
+      <div class="exp-stack">
+        <span class="tag tag-blue">Java 18</span>
+        <span class="tag tag-blue">Jersey</span>
+        <span class="tag tag-blue">Tomcat</span>
+        <span class="tag tag-blue">H2 DB</span>
+        <span class="tag tag-blue">Maven</span>
+        <span class="tag tag-violet">JavaScript</span>
+        <span class="tag tag-cyan">Docker</span>
+      </div>
+      <ul class="exp-points">
+        <li>Разработал REST-сервер с нуля на Java + Jersey + Tomcat (GET/POST запросы)</li>
+        <li>Спроектировал слой БД: H2 embedded, классы AppDatabase / SecretEntity / SecretDAO</li>
+        <li>Реализовал клиентское AES-256 шифрование + SHA-256 хэширование пароля (JS)</li>
+        <li>Настроил Maven-сборку с плагинами: Cargo, Jersey, H2, Tomcat</li>
+        <li>Контейнеризировал приложение с помощью Docker</li>
+        <li>Роли: разработчик, IT-архитектор, project manager · Оценка проекта: 8/10</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-wrap">
+    <div class="section-label">Работы</div>
+    <h2 class="section-title">Проекты</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-icon">🎬</div>
+        <div class="project-title">ComfyUI · AI Video Pipeline</div>
+        <div class="project-desc">Сложные workflow для генерации анимированного видеоконтента с персонажами. WAN Animate, reference-video ветка, всё в рамках 12 ГБ VRAM.</div>
+        <div class="project-stack">
+          <span class="tag tag-violet">ComfyUI</span>
+          <span class="tag tag-violet">WAN Animate</span>
+          <span class="tag tag-cyan">Flux</span>
+          <span class="tag tag-cyan">Hunyuan 3D</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🎭</div>
+        <div class="project-title">Unity Narrative Dialogue System</div>
+        <div class="project-desc">Branching dialogue на ScriptableObjects, JRPG-стиль, NPC interaction flow. Есть demo-видео и публичный билд.</div>
+        <div class="project-stack">
+          <span class="tag tag-blue">Unity 2022</span>
+          <span class="tag tag-blue">C#</span>
+          <span class="tag tag-blue">ScriptableObjects</span>
+        </div>
+        <a href="https://github.com/CredibleRose/unity-narrative-dialogue-system" target="_blank" class="project-link">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🎥</div>
+        <div class="project-title">MovieWeb / Retro AnimeWeb</div>
+        <div class="project-desc">Два веб-приложения на TypeScript с интеграцией Gemini API. Задеплоены в Google AI Studio.</div>
+        <div class="project-stack">
+          <span class="tag tag-blue">TypeScript</span>
+          <span class="tag tag-cyan">Gemini API</span>
+          <span class="tag tag-blue">React</span>
+        </div>
+        <a href="https://github.com/CredibleRose/MovieWeb" target="_blank" class="project-link">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🔐</div>
+        <div class="project-title">SharedSecret · Secure Messenger</div>
+        <div class="project-desc">Клиент-серверное приложение для передачи зашифрованных секретов. AES-256 на клиенте, Java-бэкенд, H2 БД, Docker.</div>
+        <div class="project-stack">
+          <span class="tag tag-blue">Java</span>
+          <span class="tag tag-blue">Maven</span>
+          <span class="tag tag-violet">AES-256</span>
+          <span class="tag tag-cyan">Docker</span>
+        </div>
+        <a href="https://github.com/CredibleRose/SharedSecret" target="_blank" class="project-link">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">👗</div>
+        <div class="project-title">AI Fashion Generation</div>
+        <div class="project-desc">Генерация изображений одежды для e-commerce. Stable Diffusion + Flux, настройка промптов под fashion-контент, постобработка.</div>
+        <div class="project-stack">
+          <span class="tag tag-violet">Stable Diffusion</span>
+          <span class="tag tag-violet">Flux</span>
+          <span class="tag tag-cyan">ComfyUI</span>
+        </div>
+        <a href="https://www.instagram.com/crediblerose" target="_blank" class="project-link">Instagram →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🌐</div>
+        <div class="project-title">React SPA · Employee Manager</div>
+        <div class="project-desc">Веб-приложение с CRUD, REST API, роутингом, сортировкой по алфавиту и дате. Сделан как тестовое задание за 14 дней.</div>
+        <div class="project-stack">
+          <span class="tag tag-blue">React</span>
+          <span class="tag tag-blue">JavaScript</span>
+          <span class="tag tag-blue">REST API</span>
+        </div>
+        <a href="https://github.com/CredibleRose/SiteItership" target="_blank" class="project-link">GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PLATFORMS -->
+<section id="platforms">
+  <div class="section-wrap">
+    <div class="section-label">Портфолио</div>
+    <h2 class="section-title">Мои платформы</h2>
+    <div class="platforms-grid">
+
+      <a href="https://github.com/CredibleRose" target="_blank" class="platform-card pc-gh">
+        <div class="platform-icon">🐙</div>
+        <div>
+          <div class="platform-name">GitHub</div>
+          <div class="platform-handle">@CredibleRose</div>
+        </div>
+        <div class="platform-desc">Исходники проектов — от Java-бэкенда до Unity и TypeScript.</div>
+        <div class="platform-arrow">→</div>
+      </a>
+
+      <a href="https://www.youtube.com/@jalolrahimov2993" target="_blank" class="platform-card pc-yt">
+        <div class="platform-icon">▶️</div>
+        <div>
+          <div class="platform-name">YouTube</div>
+          <div class="platform-handle">@jalolrahimov2993</div>
+        </div>
+        <div class="platform-desc">Демо игровых прототипов и AI-генерации в движении.</div>
+        <div class="platform-arrow">→</div>
+      </a>
+
+      <a href="https://www.artstation.com/crediblerose20" target="_blank" class="platform-card pc-art">
+        <div class="platform-icon">🎨</div>
+        <div>
+          <div class="platform-name">ArtStation</div>
+          <div class="platform-handle">crediblerose20</div>
+        </div>
+        <div class="platform-desc">3D-работы: окружения, моделирование, рендеры в Blender и 3ds Max.</div>
+        <div class="platform-arrow">→</div>
+      </a>
+
+      <a href="https://www.instagram.com/crediblerose" target="_blank" class="platform-card pc-inst">
+        <div class="platform-icon">📸</div>
+        <div>
+          <div class="platform-name">Instagram</div>
+          <div class="platform-handle">@crediblerose</div>
+        </div>
+        <div class="platform-desc">AI-генерации: fashion, концепт-арт, экспериментальный визуал.</div>
+        <div class="platform-arrow">→</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Дин Рахимов · <a href="mailto:jalolrahimov@gmail.com">jalolrahimov@gmail.com</a> · Узбекистан</p>
+</footer>
+
+</body>
+</html>
