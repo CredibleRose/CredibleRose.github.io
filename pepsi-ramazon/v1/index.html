@@ -4,7 +4,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Pepsi Ramazon — Успеть к ифтару (V1)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300..900&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300..900&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap">
 <style>* { margin: 0 } html, body { height: 100%; background: #04081c; overflow: hidden; }
 body { font: 32px/1.2 sans-serif; -webkit-tap-highlight-color: transparent; }
 #stage { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform-origin: 0 0; overflow: hidden; background: #070F2E; }
@@ -629,6 +629,8 @@ h2.md { font-size: 60px; letter-spacing: -1px; }
     if (pc && nc) { nc.classList.remove('fly'); nc.style.left = pc.dataset.left; }
     else if (nc) { nc.classList.remove('fly'); nc.style.left = nc.dataset.left; }
     next.classList.add('on');
+    var svgs = next.querySelectorAll('svg');
+    requestAnimationFrame(function(){ Array.prototype.forEach.call(svgs, function(g){ try { if (g.unpauseAnimations) g.unpauseAnimations(); if (g.setCurrentTime) g.setCurrentTime(0); } catch (e) {} }); });
     if (pc && nc) { void nc.offsetWidth; nc.classList.add('fly'); nc.style.left = nc.dataset.left; }
     cur = n;
     bar.style.width = ((n + 1) / S.length * 100) + '%';
