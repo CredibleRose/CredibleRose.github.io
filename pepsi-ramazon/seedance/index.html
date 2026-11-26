@@ -20,6 +20,12 @@ textarea.pr{width:100%;height:320px;background:#060b20;color:var(--ink);border:0
 .row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:10px 0 2px}
 button{background:var(--y);color:#0A1230;border:0;border-radius:8px;padding:10px 16px;font-weight:800;font-size:15px;cursor:pointer}
 .row a{color:var(--y);font-weight:700}
+.cr{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin:0 0 12px}
+.cr a{display:block;background:#060b20;border-radius:8px;overflow:hidden;text-decoration:none;color:var(--ink)}
+.cr img{width:100%;height:92px;object-fit:cover;display:block;background:#000}
+.cr span{display:block;padding:5px 7px;font-size:12px;line-height:1.3}.cr span b{display:block;color:var(--y);font-size:14px}
+.cr .au{display:flex;flex-direction:column;justify-content:center;min-height:92px;padding:8px;font-size:12px}
+.cr .au b{color:var(--g);font-size:14px}
 .big{display:inline-block;background:var(--g);color:#06210f;padding:10px 16px;border-radius:8px;font-weight:800;text-decoration:none;margin:6px 8px 0 0}
 </style></head><body><div class="w">
 <h1>Pepsi Ramazon «Махалля» — кит для Seedance 2.5 · v2</h1>
@@ -67,9 +73,12 @@ button{background:var(--y);color:#0A1230;border:0;border-radius:8px;padding:10px
 </div><h2>Клипы и промпты</h2>
 <div class="clip"><h3><span>Клип 1</span> · Ифтар · 10 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>D01_iftar</b> · @image2 = <b>D02_hallway</b> · @image3 = <b>R02_neighbours</b></li>
 <li>Аудио-реф: нет (песню кладём в монтаже)</li>
-</ul><textarea class="pr" id="p0" readonly>Fast-cut multishot sequence of 6 short shots: an evening iftar in an ordinary modern Tashkent home, then the father walking to the front door.
+</ul><div class="cr">
+<a href="refs/D01_iftar.jpg" download><img src="refs/t_D01_iftar.jpg" alt="D01_iftar"><span><b>@image1</b>D01_iftar</span></a>
+<a href="refs/D02_hallway.jpg" download><img src="refs/t_D02_hallway.jpg" alt="D02_hallway"><span><b>@image2</b>D02_hallway</span></a>
+<a href="refs/R02_neighbours.jpg" download><img src="refs/t_R02_neighbours.jpg" alt="R02_neighbours"><span><b>@image3</b>R02_neighbours</span></a>
+</div><textarea class="pr" id="p0" readonly>Fast-cut multishot sequence of 6 short shots: an evening iftar in an ordinary modern Tashkent home, then the father walking to the front door.
 
 HARD CUTS: exactly 6 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
@@ -96,9 +105,13 @@ OUTPUT
 16:9, 10 seconds, real-time speed, photoreal cinematic commercial, subtle film grain. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(0,this)">Копировать промпт</button><a href="prompts/clip1.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 2</span> · Дверь: «не-не-не» + строки 3–4 · 7 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 7 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>D03_door</b> · @image2 = <b>D04_smile</b> · @image3 = <b>R01_band</b> · @image4 = <b>R05_pepsi_cap</b></li>
-<li>@audio1 = <b>audio_C2_door.mp3</b></li>
-</ul><textarea class="pr" id="p1" readonly>Fast-cut multishot sequence of 7 short shots at the open front door of a modern Tashkent house at blue hour: the father offers money, five young men refuse with gestures, then chant.
+</ul><div class="cr">
+<a href="refs/D03_door.jpg" download><img src="refs/t_D03_door.jpg" alt="D03_door"><span><b>@image1</b>D03_door</span></a>
+<a href="refs/D04_smile.jpg" download><img src="refs/t_D04_smile.jpg" alt="D04_smile"><span><b>@image2</b>D04_smile</span></a>
+<a href="refs/R01_band.jpg" download><img src="refs/t_R01_band.jpg" alt="R01_band"><span><b>@image3</b>R01_band</span></a>
+<a href="refs/R05_pepsi_cap.jpg" download><img src="refs/t_R05_pepsi_cap.jpg" alt="R05_pepsi_cap"><span><b>@image4</b>R05_pepsi_cap</span></a>
+<a href="audio/audio_C2_door.mp3" download><span class="au"><b>@audio1</b>audio_C2_door.mp3</span></a>
+</div><textarea class="pr" id="p1" readonly>Fast-cut multishot sequence of 7 short shots at the open front door of a modern Tashkent house at blue hour: the father offers money, five young men refuse with gestures, then chant.
 
 SILENCE 0–3s: for the first three seconds nobody speaks or sings. Mouths stay closed, it is pure gesture. The chant starts at 3.0s, in sync with @audio1.
 
@@ -130,10 +143,16 @@ OUTPUT
 16:9, 7 seconds, real-time speed, photoreal cinematic commercial. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(1,this)">Копировать промпт</button><a href="prompts/clip2.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 3</span> · Дроп и код · 10 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>R01_band</b> · @image2 = <b>D05_handdrums</b> · @image3 = <b>D06_capcode</b> · @image4 = <b>D07_qr</b></li>
-<li>@image5 = <b>D08_paynet</b> · @image6 = <b>R06_paynet_code</b> · @image7 = <b>R04_drums_doiras</b></li>
-<li>@audio1 = <b>audio_C3a_street.mp3</b></li>
-</ul><textarea class="pr" id="p2" readonly>Fast-cut music-video sequence of 10 short shots in a modern Tashkent mahalla at blue hour: the boys burst into the square, the drums drop, and the whole packed neighbourhood opens caps, scans and enters codes.
+</ul><div class="cr">
+<a href="refs/R01_band.jpg" download><img src="refs/t_R01_band.jpg" alt="R01_band"><span><b>@image1</b>R01_band</span></a>
+<a href="refs/D05_handdrums.jpg" download><img src="refs/t_D05_handdrums.jpg" alt="D05_handdrums"><span><b>@image2</b>D05_handdrums</span></a>
+<a href="refs/D06_capcode.jpg" download><img src="refs/t_D06_capcode.jpg" alt="D06_capcode"><span><b>@image3</b>D06_capcode</span></a>
+<a href="refs/D07_qr.jpg" download><img src="refs/t_D07_qr.jpg" alt="D07_qr"><span><b>@image4</b>D07_qr</span></a>
+<a href="refs/D08_paynet.jpg" download><img src="refs/t_D08_paynet.jpg" alt="D08_paynet"><span><b>@image5</b>D08_paynet</span></a>
+<a href="refs/R06_paynet_code.jpg" download><img src="refs/t_R06_paynet_code.jpg" alt="R06_paynet_code"><span><b>@image6</b>R06_paynet_code</span></a>
+<a href="refs/R04_drums_doiras.jpg" download><img src="refs/t_R04_drums_doiras.jpg" alt="R04_drums_doiras"><span><b>@image7</b>R04_drums_doiras</span></a>
+<a href="audio/audio_C3a_street.mp3" download><span class="au"><b>@audio1</b>audio_C3a_street.mp3</span></a>
+</div><textarea class="pr" id="p2" readonly>Fast-cut music-video sequence of 10 short shots in a modern Tashkent mahalla at blue hour: the boys burst into the square, the drums drop, and the whole packed neighbourhood opens caps, scans and enters codes.
 
 HARD CUTS: exactly 10 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
@@ -174,10 +193,16 @@ OUTPUT
 16:9, 10 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screen.</textarea><div class="row"><button type="button" onclick="cp(2,this)">Копировать промпт</button><a href="prompts/clip3.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 4</span> · Призы и Kia · 8 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 8 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>D09_wins</b> · @image2 = <b>R07_paynet_win</b> · @image3 = <b>D10_gift</b> · @image4 = <b>D11_kia</b></li>
-<li>@image5 = <b>R08_kia_podium</b> · @image6 = <b>D05_handdrums</b> · @image7 = <b>R01_band</b></li>
-<li>@audio1 = <b>audio_C3b_prizes.mp3</b></li>
-</ul><textarea class="pr" id="p3" readonly>Fast-cut music-video sequence of 8 short shots on the packed mahalla square at blue hour: neighbours win prizes, give each other Pepsi, and the grand prize lights up behind the drummers.
+</ul><div class="cr">
+<a href="refs/D09_wins.jpg" download><img src="refs/t_D09_wins.jpg" alt="D09_wins"><span><b>@image1</b>D09_wins</span></a>
+<a href="refs/R07_paynet_win.jpg" download><img src="refs/t_R07_paynet_win.jpg" alt="R07_paynet_win"><span><b>@image2</b>R07_paynet_win</span></a>
+<a href="refs/D10_gift.jpg" download><img src="refs/t_D10_gift.jpg" alt="D10_gift"><span><b>@image3</b>D10_gift</span></a>
+<a href="refs/D11_kia.jpg" download><img src="refs/t_D11_kia.jpg" alt="D11_kia"><span><b>@image4</b>D11_kia</span></a>
+<a href="refs/R08_kia_podium.jpg" download><img src="refs/t_R08_kia_podium.jpg" alt="R08_kia_podium"><span><b>@image5</b>R08_kia_podium</span></a>
+<a href="refs/D05_handdrums.jpg" download><img src="refs/t_D05_handdrums.jpg" alt="D05_handdrums"><span><b>@image6</b>D05_handdrums</span></a>
+<a href="refs/R01_band.jpg" download><img src="refs/t_R01_band.jpg" alt="R01_band"><span><b>@image7</b>R01_band</span></a>
+<a href="audio/audio_C3b_prizes.mp3" download><span class="au"><b>@audio1</b>audio_C3b_prizes.mp3</span></a>
+</div><textarea class="pr" id="p3" readonly>Fast-cut music-video sequence of 8 short shots on the packed mahalla square at blue hour: neighbours win prizes, give each other Pepsi, and the grand prize lights up behind the drummers.
 
 HARD CUTS: exactly 8 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
@@ -216,9 +241,13 @@ OUTPUT
 16:9, 8 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screens.</textarea><div class="row"><button type="button" onclick="cp(3,this)">Копировать промпт</button><a href="prompts/clip4.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 5</span> · Финал: Pepsi по кругу · 6 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 6 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>D12_handover</b> · @image2 = <b>D13_yard</b> · @image3 = <b>R01_band</b> · @image4 = <b>R02_neighbours</b></li>
-<li>@audio1 = <b>audio_C4_final.mp3</b></li>
-</ul><textarea class="pr" id="p4" readonly>Fast-cut multishot sequence of 5 short shots on the packed mahalla square at blue hour: the father brings Pepsi to the boys and the bottles go around the whole neighbourhood.
+</ul><div class="cr">
+<a href="refs/D12_handover.jpg" download><img src="refs/t_D12_handover.jpg" alt="D12_handover"><span><b>@image1</b>D12_handover</span></a>
+<a href="refs/D13_yard.jpg" download><img src="refs/t_D13_yard.jpg" alt="D13_yard"><span><b>@image2</b>D13_yard</span></a>
+<a href="refs/R01_band.jpg" download><img src="refs/t_R01_band.jpg" alt="R01_band"><span><b>@image3</b>R01_band</span></a>
+<a href="refs/R02_neighbours.jpg" download><img src="refs/t_R02_neighbours.jpg" alt="R02_neighbours"><span><b>@image4</b>R02_neighbours</span></a>
+<a href="audio/audio_C4_final.mp3" download><span class="au"><b>@audio1</b>audio_C4_final.mp3</span></a>
+</div><textarea class="pr" id="p4" readonly>Fast-cut multishot sequence of 5 short shots on the packed mahalla square at blue hour: the father brings Pepsi to the boys and the bottles go around the whole neighbourhood.
 
 HARD CUTS: exactly 5 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
@@ -248,9 +277,10 @@ OUTPUT
 16:9, 6 seconds, real-time speed, photoreal cinematic commercial. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(4,this)">Копировать промпт</button><a href="prompts/clip5.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 6</span> · Финальный кадр: стол · 5 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 5 с · звук вкл</li>
-<li>Старт-кадр: <b>D14_table</b></li>
 <li>Без рефов и без аудио-рефа</li>
-</ul><textarea class="pr" id="p5" readonly>Slow push-in on a laid table in a mahalla courtyard at blue hour — the calm final frame.
+</ul><div class="cr">
+<a href="refs/D14_table.jpg" download><img src="refs/t_D14_table.jpg" alt="D14_table"><span><b>Старт-кадр</b>D14_table</span></a>
+</div><textarea class="pr" id="p5" readonly>Slow push-in on a laid table in a mahalla courtyard at blue hour — the calm final frame.
 
 ACTIVE REFERENCES
 Start frame — the table exactly as in the uploaded first frame: the Pepsi bottle, the yellow cap lying next to it, the round non, the plate of dates, the blue-and-white teapot, the neighbours in the background. 100% matches.
@@ -271,9 +301,13 @@ OUTPUT
 16:9, 5 seconds, real-time speed, photoreal premium commercial look. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(5,this)">Копировать промпт</button><a href="prompts/clip6.txt" target="_blank">открыть как текст</a></div></div>
 <div class="clip"><h3><span>Клип 7</span> · Перебивки: ребята играют (для монтажа) · 10 с</h3><ul>
 <li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-<li>@image1 = <b>R01_band</b> · @image2 = <b>D05_handdrums</b> · @image3 = <b>R04_drums_doiras</b> · @image4 = <b>D13_yard</b></li>
-<li>@audio1 = <b>audio_C3a_street.mp3</b> (тот же, что у клипа 3: кадры встают в монтаже синхронно)</li>
-</ul><textarea class="pr" id="p6" readonly>Fast-cut music-video performance sequence of 8 short shots: five young men play giant Pepsi-can drums and yellow cap doiras with bare hands in the middle of a packed modern Tashkent mahalla square at blue hour.
+</ul><div class="cr">
+<a href="refs/R01_band.jpg" download><img src="refs/t_R01_band.jpg" alt="R01_band"><span><b>@image1</b>R01_band</span></a>
+<a href="refs/D05_handdrums.jpg" download><img src="refs/t_D05_handdrums.jpg" alt="D05_handdrums"><span><b>@image2</b>D05_handdrums</span></a>
+<a href="refs/R04_drums_doiras.jpg" download><img src="refs/t_R04_drums_doiras.jpg" alt="R04_drums_doiras"><span><b>@image3</b>R04_drums_doiras</span></a>
+<a href="refs/D13_yard.jpg" download><img src="refs/t_D13_yard.jpg" alt="D13_yard"><span><b>@image4</b>D13_yard</span></a>
+<a href="audio/audio_C3a_street.mp3" download><span class="au"><b>@audio1</b>audio_C3a_street.mp3</span></a>
+</div><textarea class="pr" id="p6" readonly>Fast-cut music-video performance sequence of 8 short shots: five young men play giant Pepsi-can drums and yellow cap doiras with bare hands in the middle of a packed modern Tashkent mahalla square at blue hour.
 
 HARD CUTS: exactly 8 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
