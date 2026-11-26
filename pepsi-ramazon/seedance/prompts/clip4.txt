@@ -1,0 +1,37 @@
+Fast-cut music-video sequence of 8 short shots on the packed mahalla square at blue hour: neighbours win prizes, give each other Pepsi, and the grand prize lights up behind the drummers.
+
+HARD CUTS: exactly 8 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
+
+ACTIVE REFERENCES
+@image1 — the uncle and auntie with the +5 000 phone and the young man with +100 000: shots 1 and 4. 100% matches.
+@image2 — the Paynet win notification '+100 000 so'm'; use exactly this screen: shot 3.
+@image3 — the girl giving a Pepsi to the elderly neighbour at the gate: shot 7. 100% matches.
+@image4 — the boys with the white Kia on its podium behind them: shot 5. 100% matches.
+@image5 — the white Kia Sonet Prime with the huge red bow on a round LED podium: shot 6. 100% matches.
+@image6 — the boys drumming with bare hands in the dense crowd: shots 2 and 8.
+@image7 — the five boys, all 18, boyish faces, no facial hair.
+@audio1 — the soundtrack; drumming and chanting are in sync with it.
+
+CROWD: in every street shot the square is packed — dozens of neighbours of every age, kids on their fathers' shoulders, grandparents, phones glowing, people clapping, jumping and handing Pepsi bottles to each other.
+
+SHOTS
+Shot 1 (0.0–1.0s) — The boys chant "Bir yarim million yutuq bor". Medium: the plump uncle shows his phone (+5 000 so'm) to the auntie, she laughs, he hands her a Pepsi bottle. 40mm.
+Shot 2 (1.0–2.0s) — Low wide: the boys pound the Pepsi-can drums with bare hands, the crowd around them jumps. 24mm.
+Shot 3 (2.0–3.0s) — Chant "Besh mingdan yuz minggacha bor!". Extreme close-up of a phone: the Paynet notification from @image2 pops up. 85mm.
+Shot 4 (3.0–4.0s) — The young man in the green bomber grins wide, his friends hug him, a neighbour hands him a Pepsi bottle. 40mm.
+Shot 5 (4.0–5.0s) — Chant "Kia Sonet Prime ham bor". Behind the drumming boys the white Kia's LED headlights flash on with the beat, beams cut through the haze. 32mm.
+Shot 6 (5.0–6.0s) — Close: the big red bow on the Kia roof, the LED podium glowing, a forest of raised phones in the foreground. 50mm.
+Shot 7 (6.0–7.0s) — Chant "Sakkizta mashina bor!". At a gate the girl in the beige coat hands a Pepsi to the grandmother, who takes it with both hands, smiling. 50mm.
+Shot 8 (7.0–8.0s) — High wide from 4 m: the whole packed square turns to the light, cheering, neighbours clink Pepsi bottles, the boys drumming in the middle. 24mm.
+
+PHYSICS
+Bare hands strike the drumheads with open palms; the skins ripple on every hit.
+
+LIGHTING
+Blue hour with warm gate lamps and string lights; from shot 5 the Kia headlights are the brightest source and glow in the haze.
+
+AUDIO
+@audio1 as the music and chant; cheering, a notification ping in shot 3.
+
+OUTPUT
+16:9, 8 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screens.
