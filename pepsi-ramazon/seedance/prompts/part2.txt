@@ -1,0 +1,44 @@
+Fast-cut 20-second Ramadan commercial of 19 short shots on a packed modern Tashkent mahalla square at blue hour: neighbours scan codes and win, give each other Pepsi, the grand prize lights up, the father brings Pepsi to the boys.
+
+HARD CUTS: exactly 19 shots, cutting only at the marked times, each a clean hard cut on the beat of @audio1 and a new angle. No dissolves, no morphing.
+
+ACTIVE REFERENCES
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 father · @image7 his family · @image8 plump uncle and auntie · @image9 girl in the beige coat · @image10 young man in the dark green bomber. Everyone matches his or her character card 100%.
+@image11 — the mahalla: square, gates, lamps, string lights, the father's front door, the tapchan.
+@image12 — Pepsi-can drums and cap doiras, no sticks: played with bare hands. @image13 — Pepsi bottle and its small yellow cap with the code.
+@image14 — Paynet code screen. @image15 — Paynet notification '+100 000 so'm'. Use exactly these screens.
+@image16 — the grand prize: white Kia Sonet Prime with a huge red bow on its LED podium.
+@audio1 — chant over drums; the drums stop at 16.0s; heavy final hits from 18.0s.
+
+CROWD: every street shot is packed with neighbours of all ages, glowing phones, people handing Pepsi bottles to each other.
+
+SHOTS
+1 (0.0–1.0s) — "QR kodni skanerlang": the girl scans the QR code on a Pepsi label, neighbours crowding behind.
+2 (1.0–2.0s) — Low wide: the boys drum with bare hands mid-square; neighbours hug and pass Pepsi bottles.
+3 (2.0–3.0s) — "Kodni Paynetga kiriting": the uncle presses the yellow cap into the young man's hand.
+4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14.
+5 (3.9–4.9s) — "Omadingizni bir sinang!": the boys slap their doiras, the crowd jumps.
+6 (4.9–5.9s) — The young man taps the green button, fingers crossed.
+7 (5.9–6.9s) — "Bir yarim million yutuq bor": the uncle shows +5 000 so'm to the auntie; she laughs, he hands her a Pepsi.
+8 (6.9–7.9s) — Low wide: the boys pound the drums, the crowd jumps.
+9 (7.9–8.9s) — "Besh mingdan yuz minggacha bor!": extreme close-up of the notification from @image15.
+10 (8.9–9.8s) — The young man grins, friends hug him, a neighbour hands him a Pepsi.
+11 (9.8–10.8s) — "Kia Sonet Prime ham bor": behind the drumming boys the Kia flashes its headlights on, beams through the haze.
+12 (10.8–11.8s) — Close: the red bow on the Kia roof, the glowing podium, a forest of raised phones.
+13 (11.8–12.8s) — "Sakkizta mashina bor!": at a gate the girl hands a Pepsi to the grandmother, who takes it with both hands.
+14 (12.8–13.8s) — High wide: the square turns to the light, cheering, clinking bottles.
+15 (13.8–15.0s) — "Op chiqing, op chiqing": the father steps out of his front door with an armful of Pepsi.
+16 (15.0–16.0s) — He hands a Pepsi to the lead boy, who puts a hand on his heart; the boys cheer.
+17 (16.0–17.0s) — Drums stop. Bottles pass hand to hand; the little girl runs one to her grandparents on the tapchan.
+18 (17.0–18.0s) — "Pepsi olib chiqing!": high wide, the whole crowd raises Pepsi bottles.
+19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a blue-and-white teapot; neighbours laughing in warm bokeh.
+
+LIGHTING
+Blue hour, warm gate lamps (3000K), string lights, light haze; the Kia headlights glow in it from shot 11.
+
+AUDIO
+@audio1 as music and chant; cheering, a notification ping in shot 9.
+
+OUTPUT
+16:9, 20 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screens.

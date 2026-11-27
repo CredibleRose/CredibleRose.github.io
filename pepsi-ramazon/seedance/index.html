@@ -1,54 +1,212 @@
 <!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pepsi Ramazon — Seedance кит v3</title><style>
+<title>Pepsi Ramazon — раскадровка и Seedance</title><style>
 :root{--bg:#0A1230;--card:#111C45;--ink:#F5EFE4;--mut:#AEB6D6;--y:#FFC62E;--g:#18CB6D}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,Segoe UI,Roboto,sans-serif}
 .w{max-width:1100px;margin:0 auto;padding:28px 18px 80px}
-h1{font-size:28px;margin:0 0 6px}h2{font-size:20px;margin:40px 0 12px;color:var(--y)}
+h1{font-size:28px;margin:0 0 6px}h2{font-size:22px;margin:44px 0 12px;color:var(--y)}h3{margin:22px 0 10px}
 p.m{color:var(--mut);margin:0 0 10px}
-table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:8px 10px;border-bottom:1px solid #26336a;text-align:left;vertical-align:top}
-th{color:var(--mut);font-weight:600}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}nav a{background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;text-decoration:none;font-size:14px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
 .ref{background:var(--card);border-radius:10px;overflow:hidden;text-decoration:none;color:var(--ink)}
 .ref img{width:100%;height:130px;object-fit:cover;display:block;background:#000}
 .ref div{padding:8px 10px;font-size:13px}.ref b{display:block;color:var(--y);font-size:12px;letter-spacing:.5px}
 ul.a{list-style:none;padding:0;margin:0}ul.a li{background:var(--card);border-radius:8px;padding:10px 12px;margin:0 0 8px}
 ul.a a{color:var(--y);font-weight:700;text-decoration:none}
-.clip{background:var(--card);border-radius:12px;padding:16px 16px 12px;margin:0 0 18px}
-.clip h3{margin:0 0 8px;font-size:18px}.clip h3 span{color:var(--y)}
-.clip ul{margin:0 0 12px;padding-left:18px;color:var(--mut);font-size:14px}.clip ul b{color:var(--ink)}
-textarea.pr{width:100%;height:320px;background:#060b20;color:var(--ink);border:0;border-radius:8px;padding:14px;font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;resize:vertical}
-.row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:10px 0 2px}
-button{background:var(--y);color:#0A1230;border:0;border-radius:8px;padding:10px 16px;font-weight:800;font-size:15px;cursor:pointer}
-.row a{color:var(--y);font-weight:700}
-.cr{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin:0 0 12px}
+.sb{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.fr{background:var(--card);border-radius:10px;overflow:hidden}
+.fr img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:#fff}
+.fr div{padding:9px 11px 11px;font-size:14px;line-height:1.4}
+.fr .h{display:flex;justify-content:space-between;align-items:baseline;margin:0 0 4px}
+.fr .h b{color:var(--y);font-size:15px}.fr .h span{color:var(--mut);font-size:12px;font-variant-numeric:tabular-nums}
+.fr .s{color:var(--g);font-size:13px;margin-top:5px}
+.part{background:var(--card);border-radius:12px;padding:16px 16px 12px;margin:0 0 18px}
+.part h3{margin:0 0 6px;font-size:19px}.part h3 span{color:var(--y)}
+.cr{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin:10px 0 12px}
 .cr a{display:block;background:#060b20;border-radius:8px;overflow:hidden;text-decoration:none;color:var(--ink)}
 .cr img{width:100%;height:92px;object-fit:cover;display:block;background:#000}
 .cr span{display:block;padding:5px 7px;font-size:12px;line-height:1.3}.cr span b{display:block;color:var(--y);font-size:14px}
-.cr .au{display:flex;flex-direction:column;justify-content:center;min-height:92px;padding:8px;font-size:12px}
-.cr .au b{color:var(--g);font-size:14px}
-.big{display:inline-block;background:var(--g);color:#06210f;padding:10px 16px;border-radius:8px;font-weight:800;text-decoration:none;margin:6px 8px 0 0}
+.cr .au{display:flex;flex-direction:column;justify-content:center;min-height:92px;padding:8px;font-size:12px}.cr .au b{color:var(--g);font-size:14px}
+textarea.pr{width:100%;height:340px;background:#060b20;color:var(--ink);border:0;border-radius:8px;padding:14px;font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;resize:vertical}
+.row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:10px 0 2px}
+button{background:var(--y);color:#0A1230;border:0;border-radius:8px;padding:10px 16px;font-weight:800;font-size:15px;cursor:pointer}
+.row a{color:var(--y);font-weight:700}
+.big{display:inline-block;background:var(--g);color:#06210f;padding:10px 16px;border-radius:8px;font-weight:800;text-decoration:none;margin:12px 8px 0 0}
+table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:8px 10px;border-bottom:1px solid #26336a;text-align:left;vertical-align:top}th{color:var(--mut);font-weight:600}
 </style></head><body><div class="w">
-<h1>Pepsi Ramazon «Махалля» — кит для Seedance 2.5 · v3</h1>
-<p class="m">Много коротких кадров, жёсткие склейки по биту, толпа как в презе, соседи дарят друг другу Pepsi, ребята играют руками. Рефы — карточки персонажей, локаций и предметов.</p>
-<a class="big" href="pepsi_seedance_kit.zip" download>Скачать всё одним архивом</a>
-<h2>Монтаж (по мастеру master_door)</h2><table><tr><th>Время, с</th><th>Клип</th><th>Звук</th></tr>
-<tr><td>0,00–9,95</td><td>1 · Ифтар (6 кадров)</td><td>строки 1–2 за дверью</td></tr>
-<tr><td>9,95–16,95</td><td>2 · Дверь (7 кадров)</td><td>пауза-жесты, строки 3–4</td></tr>
-<tr><td>16,95–26,82</td><td>3 · Дроп и код (10 кадров) + перебивки из 7</td><td>дробь, дроп, куплет 2</td></tr>
-<tr><td>26,82–34,74</td><td>4 · Призы и Kia (8 кадров)</td><td>куплет 3</td></tr>
-<tr><td>34,74–39,05</td><td>5 · Финал (5 кадров)</td><td>Op chiqing, удар на 39,05</td></tr>
-<tr><td>39,05–44</td><td>6 · Стол + пэкшот</td><td>хвост удара, шумы</td></tr>
-</table><p class="m" style="margin-top:10px">Склейки внутри клипов уже стоят на долях. В монтаже режь ещё мельче и вставляй перебивки из клипа 7: у него тот же аудио-реф, что у клипа 3, поэтому руки и рты попадают в бит. Звук Seedance глушим, кладём мастер.</p>
-<h2>Аудио</h2><ul class="a">
-<li><a href="audio/master_door.mp3" download>master_door.mp3</a><br>Мастер для монтажа: строки 1–2 «за дверью» + пауза 3 с (40,7 с)</li>
-<li><a href="audio/master_door.wav" download>master_door.wav</a><br>То же в WAV</li>
-<li><a href="audio/master_pause.mp3" download>master_pause.mp3</a><br>Мастер без фильтра двери</li>
-<li><a href="audio/audio_C2_door.mp3" download>audio_C2_door.mp3</a><br>Аудио-реф клипа 2 (7 с)</li>
-<li><a href="audio/audio_C3a_street.mp3" download>audio_C3a_street.mp3</a><br>Аудио-реф клипов 3 и 7 (10 с)</li>
-<li><a href="audio/audio_C3b_prizes.mp3" download>audio_C3b_prizes.mp3</a><br>Аудио-реф клипа 4 (8 с)</li>
-<li><a href="audio/audio_C4_final.mp3" download>audio_C4_final.mp3</a><br>Аудио-реф клипа 5 (6 с)</li>
-</ul><h2>Референсы</h2><p class="m">Карточки персонажей, локаций и предметов. Ключевых кадров больше нет: композицию задаёт текст промпта.</p>
-<h3 style="margin:18px 0 10px">Персонажи</h3><div class="grid">
+<h1>Pepsi Ramazon «Махалля» — раскадровка и Seedance</h1>
+<p class="m">Ролик 40 секунд = две генерации Seedance 2.5 по 20 секунд. 36 коротких кадров, склейки на долю, толпа, соседи дарят друг другу Pepsi, ребята играют руками.</p>
+<nav><a href="#plan">План</a><a href="#sb1">Раскадровка, часть 1</a><a href="#sb2">Раскадровка, часть 2</a><a href="#prompts">Промпты</a><a href="#audio">Аудио</a><a href="#refs">Референсы</a></nav>
+<a class="big" href="pepsi_seedance_kit.zip" download>Скачать всё одним архивом</a><a class="big" style="background:#FFC62E;color:#0A1230" href="sb/storyboard_sheets.zip" download>Листы раскадровки (6 шт.)</a>
+<h2 id="plan">План</h2><table><tr><th>Часть</th><th>Время ролика</th><th>Что внутри</th></tr>
+<tr><td><b>1</b> · 20 с</td><td>0–20 с</td><td>Ифтар, строки 1–2 за дверью → дверь, «не-не-не» в тишине → строки 3–4 → дробь → дроп на 18 с</td></tr>
+<tr><td><b>2</b> · 20 с</td><td>20–40 с</td><td>QR и Paynet → выигрыши → Kia → хозяин выносит Pepsi, бутылки по кругу → финальные удары и стол → пэкшот</td></tr>
+</table><p class="m" style="margin-top:10px">Склейка частей — на 20,0 с, это ровно граница такта. В монтаже кладём только master40, звук Seedance глушим. Пэкшот Pepsi × Paynet × Kia накладывается на последний кадр (38–40 с).</p>
+<h2 id="sb1">Раскадровка, часть 1 · 0–20 с</h2><div class="sb">
+<div class="fr"><img src="sb/shot01.jpg" alt="кадр 1" loading="lazy"><div><p class="h"><b>Кадр 1</b><span>0,0–1,5 с</span></p>Общий план: семья из 14 человек за столом ифтара — плов, лепёшки, финики, Pepsi. Все смеются.<div class="s">♪ из-за двери глухо — дойра</div></div></div>
+<div class="fr"><img src="sb/shot02.jpg" alt="кадр 2" loading="lazy"><div><p class="h"><b>Кадр 2</b><span>1,5–2,5 с</span></p>Крупно: внучка протягивает дедушке Pepsi, он берёт двумя руками.<div class="s">♪ дойра (глухо)</div></div></div>
+<div class="fr"><img src="sb/shot03.jpg" alt="кадр 3" loading="lazy"><div><p class="h"><b>Кадр 3</b><span>2,5–4,0 с</span></p>Все оборачиваются к коридору, дети замирают и слушают.<div class="s">♪ «Assalomu alaykum, bizlar keldik» (глухо)</div></div></div>
+<div class="fr"><img src="sb/shot04.jpg" alt="кадр 4" loading="lazy"><div><p class="h"><b>Кадр 4</b><span>4,0–5,5 с</span></p>Хозяин понимающе улыбается и встаёт из-за стола.<div class="s">♪ (глухо)</div></div></div>
+<div class="fr"><img src="sb/shot05.jpg" alt="кадр 5" loading="lazy"><div><p class="h"><b>Кадр 5</b><span>5,5–7,0 с</span></p>Со спины: идёт по коридору к двери, хлопает по карману, за ним двое детей.<div class="s">♪ «Ramazon yo‘lini izlab keldik» (глухо)</div></div></div>
+<div class="fr"><img src="sb/shot06.jpg" alt="кадр 6" loading="lazy"><div><p class="h"><b>Кадр 6</b><span>7,0–8,0 с</span></p>Крупно: достаёт из кармана сложенные купюры.<div class="s">♪ (глухо)</div></div></div>
+<div class="fr"><img src="sb/shot07.jpg" alt="кадр 7" loading="lazy"><div><p class="h"><b>Кадр 7</b><span>8,0–10,0 с</span></p>Через плечо хозяина: дверь открывается (8,4 с), на пороге пятеро ребят с дойрами допевают строку.<div class="s">♪ голос становится чистым</div></div></div>
+<div class="fr"><img src="sb/shot08.jpg" alt="кадр 8" loading="lazy"><div><p class="h"><b>Кадр 8</b><span>10,0–11,2 с</span></p>Снаружи: хозяин протягивает деньги, все пятеро улыбаются и машут ладонями: «не-не-не».<div class="s">♪ тишина</div></div></div>
+<div class="fr"><img src="sb/shot09.jpg" alt="кадр 9" loading="lazy"><div><p class="h"><b>Кадр 9</b><span>11,2–12,3 с</span></p>Крупно: заводила отводит руку с деньгами и показывает на Pepsi на столе.<div class="s">♪ тишина</div></div></div>
+<div class="fr"><img src="sb/shot10.jpg" alt="кадр 10" loading="lazy"><div><p class="h"><b>Кадр 10</b><span>12,3–13,3 с</span></p>Ребята читают, заводила бьёт ладонью по дойре.<div class="s">♪ «Pepsining qopqog‘i bor»</div></div></div>
+<div class="fr"><img src="sb/shot11.jpg" alt="кадр 11" loading="lazy"><div><p class="h"><b>Кадр 11</b><span>13,3–14,4 с</span></p>Хозяин хохочет, за спиной смеётся семья.</div></div>
+<div class="fr"><img src="sb/shot12.jpg" alt="кадр 12" loading="lazy"><div><p class="h"><b>Кадр 12</b><span>14,4–15,4 с</span></p>Сверхкрупно: очкарик переворачивает жёлтую крышку — внутри код.<div class="s">♪ «Qopqoq ostida kodi bor»</div></div></div>
+<div class="fr"><img src="sb/shot13.jpg" alt="кадр 13" loading="lazy"><div><p class="h"><b>Кадр 13</b><span>15,4–16,1 с</span></p>Хозяин «сдаётся» — поднимает руки и смеётся.</div></div>
+<div class="fr"><img src="sb/shot14.jpg" alt="кадр 14" loading="lazy"><div><p class="h"><b>Кадр 14</b><span>16,1–17,1 с</span></p>Ребята выбегают за ворота на улицу, камера бежит за ними.<div class="s">♪ барабанная дробь</div></div></div>
+<div class="fr"><img src="sb/shot15.jpg" alt="кадр 15" loading="lazy"><div><p class="h"><b>Кадр 15</b><span>17,1–18,0 с</span></p>Загораются окна, отдёргивают шторы, соседи открывают ворота и выходят.<div class="s">♪ дробь</div></div></div>
+<div class="fr"><img src="sb/shot16.jpg" alt="кадр 16" loading="lazy"><div><p class="h"><b>Кадр 16</b><span>18,0–19,0 с</span></p>ДРОП. Сверхкрупно снизу: ладони парня в красной олимпийке бьют по барабану-банке.<div class="s">♪ дроп</div></div></div>
+<div class="fr"><img src="sb/shot17.jpg" alt="кадр 17" loading="lazy"><div><p class="h"><b>Кадр 17</b><span>19,0–20,0 с</span></p>Дядя откручивает крышку Pepsi и переворачивает — внутри код.<div class="s">♪ «Sariq qopqoqni oching»</div></div></div>
+</div>
+<h2 id="sb2">Раскадровка, часть 2 · 20–40 с</h2><div class="sb">
+<div class="fr"><img src="sb/shot18.jpg" alt="кадр 18" loading="lazy"><div><p class="h"><b>Кадр 18</b><span>20,0–21,0 с · в части 0,0–1,0</span></p>Девушка сканирует QR на этикетке, за ней толпа.<div class="s">♪ «QR kodni skanerlang»</div></div></div>
+<div class="fr"><img src="sb/shot19.jpg" alt="кадр 19" loading="lazy"><div><p class="h"><b>Кадр 19</b><span>21,0–22,0 с · в части 1,0–2,0</span></p>Общий снизу: ребята бьют по барабанам в центре площади, соседи обнимаются и передают Pepsi.</div></div>
+<div class="fr"><img src="sb/shot20.jpg" alt="кадр 20" loading="lazy"><div><p class="h"><b>Кадр 20</b><span>22,0–23,0 с · в части 2,0–3,0</span></p>Дядя вкладывает крышку в руку парню в зелёном бомбере.<div class="s">♪ «Kodni Paynetga kiriting»</div></div></div>
+<div class="fr"><img src="sb/shot21.jpg" alt="кадр 21" loading="lazy"><div><p class="h"><b>Кадр 21</b><span>23,0–23,9 с · в части 3,0–3,9</span></p>Через плечо: вводит код в Paynet.</div></div>
+<div class="fr"><img src="sb/shot22.jpg" alt="кадр 22" loading="lazy"><div><p class="h"><b>Кадр 22</b><span>23,9–24,9 с · в части 3,9–4,9</span></p>Ребята бьют по дойрам и читают, толпа прыгает.<div class="s">♪ «Omadingizni bir sinang!»</div></div></div>
+<div class="fr"><img src="sb/shot23.jpg" alt="кадр 23" loading="lazy"><div><p class="h"><b>Кадр 23</b><span>24,9–25,9 с · в части 4,9–5,9</span></p>Парень жмёт зелёную кнопку и скрещивает пальцы.</div></div>
+<div class="fr"><img src="sb/shot24.jpg" alt="кадр 24" loading="lazy"><div><p class="h"><b>Кадр 24</b><span>25,9–26,9 с · в части 5,9–6,9</span></p>Дядя показывает тёте +5 000, она смеётся, он дарит ей Pepsi.<div class="s">♪ «Bir yarim million yutuq bor»</div></div></div>
+<div class="fr"><img src="sb/shot25.jpg" alt="кадр 25" loading="lazy"><div><p class="h"><b>Кадр 25</b><span>26,9–27,9 с · в части 6,9–7,9</span></p>Общий снизу: барабаны, толпа прыгает.</div></div>
+<div class="fr"><img src="sb/shot26.jpg" alt="кадр 26" loading="lazy"><div><p class="h"><b>Кадр 26</b><span>27,9–28,9 с · в части 7,9–8,9</span></p>Сверхкрупно: уведомление Paynet +100 000.<div class="s">♪ «Besh mingdan yuz minggacha bor!»</div></div></div>
+<div class="fr"><img src="sb/shot27.jpg" alt="кадр 27" loading="lazy"><div><p class="h"><b>Кадр 27</b><span>28,9–29,8 с · в части 8,9–9,8</span></p>Парень сияет, друзья обнимают, сосед протягивает ему Pepsi.</div></div>
+<div class="fr"><img src="sb/shot28.jpg" alt="кадр 28" loading="lazy"><div><p class="h"><b>Кадр 28</b><span>29,8–30,8 с · в части 9,8–10,8</span></p>За ребятами вспыхивают фары Kia на подиуме.<div class="s">♪ «Kia Sonet Prime ham bor»</div></div></div>
+<div class="fr"><img src="sb/shot29.jpg" alt="кадр 29" loading="lazy"><div><p class="h"><b>Кадр 29</b><span>30,8–31,8 с · в части 10,8–11,8</span></p>Крупно: красный бант на крыше, подиум светится, лес телефонов.</div></div>
+<div class="fr"><img src="sb/shot30.jpg" alt="кадр 30" loading="lazy"><div><p class="h"><b>Кадр 30</b><span>31,8–32,8 с · в части 11,8–12,8</span></p>У калитки девушка дарит бабушке Pepsi, та берёт двумя руками.<div class="s">♪ «Sakkizta mashina bor!»</div></div></div>
+<div class="fr"><img src="sb/shot31.jpg" alt="кадр 31" loading="lazy"><div><p class="h"><b>Кадр 31</b><span>32,8–33,8 с · в части 12,8–13,8</span></p>Сверху: вся площадь поворачивается к свету, кричит, чокается бутылками.</div></div>
+<div class="fr"><img src="sb/shot32.jpg" alt="кадр 32" loading="lazy"><div><p class="h"><b>Кадр 32</b><span>33,8–35,0 с · в части 13,8–15,0</span></p>Хозяин выходит из той же двери с охапкой Pepsi.<div class="s">♪ «Op chiqing, op chiqing»</div></div></div>
+<div class="fr"><img src="sb/shot33.jpg" alt="кадр 33" loading="lazy"><div><p class="h"><b>Кадр 33</b><span>35,0–36,0 с · в части 15,0–16,0</span></p>Отдаёт бутылку заводиле, тот прикладывает руку к сердцу, ребята ликуют.</div></div>
+<div class="fr"><img src="sb/shot34.jpg" alt="кадр 34" loading="lazy"><div><p class="h"><b>Кадр 34</b><span>36,0–37,0 с · в части 16,0–17,0</span></p>Барабаны стихают. Бутылки идут по рукам, девочка несёт бутылку бабушке с дедушкой на топчан.<div class="s">♪ брейк</div></div></div>
+<div class="fr"><img src="sb/shot35.jpg" alt="кадр 35" loading="lazy"><div><p class="h"><b>Кадр 35</b><span>37,0–38,0 с · в части 17,0–18,0</span></p>Сверху: вся толпа поднимает Pepsi вверх.<div class="s">♪ «Pepsi olib chiqing!»</div></div></div>
+<div class="fr"><img src="sb/shot36.jpg" alt="кадр 36" loading="lazy"><div><p class="h"><b>Кадр 36</b><span>38,0–40,0 с · в части 18,0–20,0</span></p>Финальные удары. Стол под перголой: Pepsi, жёлтая крышка, лепёшка, финики, чайник; соседи в боке. Пэкшот Pepsi × Paynet × Kia — в монтаже.<div class="s">♪ финальные удары</div></div></div>
+</div>
+<h2 id="prompts">Промпты Seedance</h2>
+<div class="part"><h3><span>Часть 1</span> · Ифтар → дверь → дроп</h3><p class="m">0–20 с ролика · кадры 1–17 · Seedance 2.5 · Omni Reference · 16:9 · 20 с · звук вкл · без старт-кадра</p><div class="cr">
+<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
+<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
+<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
+<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
+<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
+<a href="refs/C06_father.jpg" download><img src="refs/t_C06_father.jpg" alt="C06_father"><span><b>@image6</b>C06_father</span></a>
+<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image7</b>C07_family</span></a>
+<a href="refs/C08_uncle_auntie.jpg" download><img src="refs/t_C08_uncle_auntie.jpg" alt="C08_uncle_auntie"><span><b>@image8</b>C08_uncle_auntie</span></a>
+<a href="refs/L02_house.jpg" download><img src="refs/t_L02_house.jpg" alt="L02_house"><span><b>@image9</b>L02_house</span></a>
+<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image10</b>L01_mahalla</span></a>
+<a href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="P01_drums_doiras"><span><b>@image11</b>P01_drums_doiras</span></a>
+<a href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="P02_pepsi_cap"><span><b>@image12</b>P02_pepsi_cap</span></a>
+<a href="audio/part1.mp3" download><span class="au"><b>@audio1</b>part1.mp3</span></a></div>
+<textarea class="pr" id="p0" readonly>Fast-cut 20-second Ramadan commercial sequence of 17 short shots: a family iftar in a modern Tashkent home, five young men at the door refusing money and asking for Pepsi, then the whole mahalla bursting to life on the drum drop.
+
+HARD CUTS: exactly 17 shots. The picture cuts only at the marked times, each cut a clean hard cut on the beat of @audio1, each shot a new angle. No dissolves, no morphing.
+
+SILENCE 10.0–12.3s: nobody speaks or sings, the refusal is pure gesture. Inside the house nobody sings at any time — the chanting comes from the boys outside.
+
+ACTIVE REFERENCES
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 — the father. @image7 — his family. @image8 — the plump uncle and the auntie. Everyone matches his or her character card 100%.
+@image9 — the house interior: iftar room, hallway, front door. @image10 — the mahalla outside.
+@image11 — the Pepsi-can drums and cap doiras, no sticks: played with bare hands.
+@image12 — the Pepsi bottle and its small yellow cap with the code inside.
+@audio1 — the soundtrack: muffled chanting through the door until 8.4s, clear once the door opens, silence 10.0–12.3s, the chant again, a snare roll, the drum drop at 18.0s.
+
+SHOTS
+1 (0.0–1.5s) — Wide at table height: the family of fourteen around a long iftar table with plov, non, dates and Pepsi bottles, laughing.
+2 (1.5–2.5s) — Close-up: the little girl hands a Pepsi to her grandfather; he takes it with both hands.
+3 (2.5–4.0s) — Medium: heads turn toward the hallway, the kids freeze, listening.
+4 (4.0–5.5s) — The father&#x27;s knowing smile; he stands up from the table.
+5 (5.5–7.0s) — From behind: he walks down the hallway to the front door, patting his pocket; two kids follow.
+6 (7.0–8.0s) — Close-up: his hand pulls folded banknotes from his pocket.
+7 (8.0–10.0s) — Over his shoulder: the door swings open at 8.4s onto the five boys on the step, chanting with their yellow cap doiras.
+8 (10.0–11.2s) — From outside: he holds out the money; all five grin and wave their open palms side to side — no, no, no.
+9 (11.2–12.3s) — Close-up: the lead boy pushes the money back and points inside at the Pepsi on the iftar table.
+10 (12.3–13.3s) — The boys chant &quot;Pepsining qopqog&#x27;i bor&quot;, the lead boy slapping his doira.
+11 (13.3–14.4s) — The father bursts out laughing; his family laughs behind him.
+12 (14.4–15.4s) — Extreme close-up: the boy with glasses flips a small yellow Pepsi cap to show the code inside — &quot;Qopqoq ostida kodi bor&quot;.
+13 (15.4–16.1s) — The father raises both hands in surrender, laughing.
+14 (16.1–17.1s) — Snare roll. Tracking behind the boys as they run out through a metal gate into the street.
+15 (17.1–18.0s) — Windows light up, curtains are pulled aside, neighbours swing their gates open and step out.
+16 (18.0–19.0s) — Drop. Low extreme close-up: the red-jacket boy&#x27;s bare palms slam a giant Pepsi-can drum, the skin ripples.
+17 (19.0–20.0s) — Chant &quot;Sariq qopqoqni oching&quot;: the plump uncle unscrews a Pepsi cap and turns it over — the code inside.
+
+LIGHTING
+Warm golden interior light (3000K); outside blue hour with warm LED lamps at every gate and string lights over the square.
+
+AUDIO
+@audio1 as the music and chant; family laughter, footsteps, the door, cheering on top.
+
+OUTPUT
+16:9, 20 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(0,this)">Копировать промпт</button><a href="prompts/part1.txt" target="_blank">открыть как текст</a></div></div>
+<div class="part"><h3><span>Часть 2</span> · Код → призы → Kia → финал</h3><p class="m">20–40 с ролика · кадры 18–36 · Seedance 2.5 · Omni Reference · 16:9 · 20 с · звук вкл · без старт-кадра</p><div class="cr">
+<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
+<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
+<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
+<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
+<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
+<a href="refs/C06_father.jpg" download><img src="refs/t_C06_father.jpg" alt="C06_father"><span><b>@image6</b>C06_father</span></a>
+<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image7</b>C07_family</span></a>
+<a href="refs/C08_uncle_auntie.jpg" download><img src="refs/t_C08_uncle_auntie.jpg" alt="C08_uncle_auntie"><span><b>@image8</b>C08_uncle_auntie</span></a>
+<a href="refs/C09_girl.jpg" download><img src="refs/t_C09_girl.jpg" alt="C09_girl"><span><b>@image9</b>C09_girl</span></a>
+<a href="refs/C10_youngman.jpg" download><img src="refs/t_C10_youngman.jpg" alt="C10_youngman"><span><b>@image10</b>C10_youngman</span></a>
+<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image11</b>L01_mahalla</span></a>
+<a href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="P01_drums_doiras"><span><b>@image12</b>P01_drums_doiras</span></a>
+<a href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="P02_pepsi_cap"><span><b>@image13</b>P02_pepsi_cap</span></a>
+<a href="refs/P03_paynet_code.jpg" download><img src="refs/t_P03_paynet_code.jpg" alt="P03_paynet_code"><span><b>@image14</b>P03_paynet_code</span></a>
+<a href="refs/P04_paynet_win.jpg" download><img src="refs/t_P04_paynet_win.jpg" alt="P04_paynet_win"><span><b>@image15</b>P04_paynet_win</span></a>
+<a href="refs/P05_kia_podium.jpg" download><img src="refs/t_P05_kia_podium.jpg" alt="P05_kia_podium"><span><b>@image16</b>P05_kia_podium</span></a>
+<a href="audio/part2.mp3" download><span class="au"><b>@audio1</b>part2.mp3</span></a></div>
+<textarea class="pr" id="p1" readonly>Fast-cut 20-second Ramadan commercial of 19 short shots on a packed modern Tashkent mahalla square at blue hour: neighbours scan codes and win, give each other Pepsi, the grand prize lights up, the father brings Pepsi to the boys.
+
+HARD CUTS: exactly 19 shots, cutting only at the marked times, each a clean hard cut on the beat of @audio1 and a new angle. No dissolves, no morphing.
+
+ACTIVE REFERENCES
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 father · @image7 his family · @image8 plump uncle and auntie · @image9 girl in the beige coat · @image10 young man in the dark green bomber. Everyone matches his or her character card 100%.
+@image11 — the mahalla: square, gates, lamps, string lights, the father&#x27;s front door, the tapchan.
+@image12 — Pepsi-can drums and cap doiras, no sticks: played with bare hands. @image13 — Pepsi bottle and its small yellow cap with the code.
+@image14 — Paynet code screen. @image15 — Paynet notification &#x27;+100 000 so&#x27;m&#x27;. Use exactly these screens.
+@image16 — the grand prize: white Kia Sonet Prime with a huge red bow on its LED podium.
+@audio1 — chant over drums; the drums stop at 16.0s; heavy final hits from 18.0s.
+
+CROWD: every street shot is packed with neighbours of all ages, glowing phones, people handing Pepsi bottles to each other.
+
+SHOTS
+1 (0.0–1.0s) — &quot;QR kodni skanerlang&quot;: the girl scans the QR code on a Pepsi label, neighbours crowding behind.
+2 (1.0–2.0s) — Low wide: the boys drum with bare hands mid-square; neighbours hug and pass Pepsi bottles.
+3 (2.0–3.0s) — &quot;Kodni Paynetga kiriting&quot;: the uncle presses the yellow cap into the young man&#x27;s hand.
+4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14.
+5 (3.9–4.9s) — &quot;Omadingizni bir sinang!&quot;: the boys slap their doiras, the crowd jumps.
+6 (4.9–5.9s) — The young man taps the green button, fingers crossed.
+7 (5.9–6.9s) — &quot;Bir yarim million yutuq bor&quot;: the uncle shows +5 000 so&#x27;m to the auntie; she laughs, he hands her a Pepsi.
+8 (6.9–7.9s) — Low wide: the boys pound the drums, the crowd jumps.
+9 (7.9–8.9s) — &quot;Besh mingdan yuz minggacha bor!&quot;: extreme close-up of the notification from @image15.
+10 (8.9–9.8s) — The young man grins, friends hug him, a neighbour hands him a Pepsi.
+11 (9.8–10.8s) — &quot;Kia Sonet Prime ham bor&quot;: behind the drumming boys the Kia flashes its headlights on, beams through the haze.
+12 (10.8–11.8s) — Close: the red bow on the Kia roof, the glowing podium, a forest of raised phones.
+13 (11.8–12.8s) — &quot;Sakkizta mashina bor!&quot;: at a gate the girl hands a Pepsi to the grandmother, who takes it with both hands.
+14 (12.8–13.8s) — High wide: the square turns to the light, cheering, clinking bottles.
+15 (13.8–15.0s) — &quot;Op chiqing, op chiqing&quot;: the father steps out of his front door with an armful of Pepsi.
+16 (15.0–16.0s) — He hands a Pepsi to the lead boy, who puts a hand on his heart; the boys cheer.
+17 (16.0–17.0s) — Drums stop. Bottles pass hand to hand; the little girl runs one to her grandparents on the tapchan.
+18 (17.0–18.0s) — &quot;Pepsi olib chiqing!&quot;: high wide, the whole crowd raises Pepsi bottles.
+19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a blue-and-white teapot; neighbours laughing in warm bokeh.
+
+LIGHTING
+Blue hour, warm gate lamps (3000K), string lights, light haze; the Kia headlights glow in it from shot 11.
+
+AUDIO
+@audio1 as music and chant; cheering, a notification ping in shot 9.
+
+OUTPUT
+16:9, 20 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screens.</textarea><div class="row"><button type="button" onclick="cp(1,this)">Копировать промпт</button><a href="prompts/part2.txt" target="_blank">открыть как текст</a></div></div>
+<h2 id="audio">Аудио</h2><ul class="a">
+<li><a href="audio/master40.mp3" download>master40.mp3</a><br>Мастер для монтажа, ровно 40 с: строки 1–2 «за дверью», дверь открывается на 8,4 с, пауза-жесты 9,95–12,33 с, дроп на 18,0 с</li>
+<li><a href="audio/master40.wav" download>master40.wav</a><br>То же в WAV</li>
+<li><a href="audio/part1.mp3" download>part1.mp3</a><br>Аудио-реф части 1 (0–20 с мастера)</li>
+<li><a href="audio/part2.mp3" download>part2.mp3</a><br>Аудио-реф части 2 (20–40 с мастера)</li>
+</ul>
+<h2 id="refs">Референсы</h2><p class="m">Карточки персонажей, локаций и предметов.</p>
+<h3>Персонажи</h3><div class="grid">
 <a class="ref" href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="Заводила: кудрявый, синий жилет"><div><b>C01_lead</b>Заводила: кудрявый, синий жилет</div></a>
 <a class="ref" href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="Красная олимпийка (большой барабан)"><div><b>C02_red</b>Красная олимпийка (большой барабан)</div></a>
 <a class="ref" href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="Белый бомбер с синими рукавами"><div><b>C03_varsity</b>Белый бомбер с синими рукавами</div></a>
@@ -60,322 +218,26 @@ button{background:var(--y);color:#0A1230;border:0;border-radius:8px;padding:10px
 <a class="ref" href="refs/C09_girl.jpg" download><img src="refs/t_C09_girl.jpg" alt="Девушка в бежевом пальто"><div><b>C09_girl</b>Девушка в бежевом пальто</div></a>
 <a class="ref" href="refs/C10_youngman.jpg" download><img src="refs/t_C10_youngman.jpg" alt="Парень в зелёном бомбере (100 000)"><div><b>C10_youngman</b>Парень в зелёном бомбере (100 000)</div></a>
 </div>
-<h3 style="margin:18px 0 10px">Локации</h3><div class="grid">
+<h3>Локации</h3><div class="grid">
 <a class="ref" href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="Махалля: площадь, дома, дверь, топчан"><div><b>L01_mahalla</b>Махалля: площадь, дома, дверь, топчан</div></a>
 <a class="ref" href="refs/L02_house.jpg" download><img src="refs/t_L02_house.jpg" alt="Дом: ифтар, коридор, дверь изнутри"><div><b>L02_house</b>Дом: ифтар, коридор, дверь изнутри</div></a>
 </div>
-<h3 style="margin:18px 0 10px">Предметы</h3><div class="grid">
+<h3>Предметы</h3><div class="grid">
 <a class="ref" href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="Барабаны-банки и дойры-крышки, без палочек"><div><b>P01_drums_doiras</b>Барабаны-банки и дойры-крышки, без палочек</div></a>
 <a class="ref" href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="Бутылка и жёлтая крышка с кодом"><div><b>P02_pepsi_cap</b>Бутылка и жёлтая крышка с кодом</div></a>
 <a class="ref" href="refs/P03_paynet_code.jpg" download><img src="refs/t_P03_paynet_code.jpg" alt="Paynet: ввод кода"><div><b>P03_paynet_code</b>Paynet: ввод кода</div></a>
 <a class="ref" href="refs/P04_paynet_win.jpg" download><img src="refs/t_P04_paynet_win.jpg" alt="Paynet: +100 000"><div><b>P04_paynet_win</b>Paynet: +100 000</div></a>
 <a class="ref" href="refs/P05_kia_podium.jpg" download><img src="refs/t_P05_kia_podium.jpg" alt="Kia на подиуме с бантом"><div><b>P05_kia_podium</b>Kia на подиуме с бантом</div></a>
 </div>
-<h2>Клипы и промпты</h2>
-<div class="clip"><h3><span>Клип 1</span> · Ифтар · 10 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-<li>Аудио-реф: нет (песню кладём в монтаже)</li>
-</ul><div class="cr">
-<a href="refs/C06_father.jpg" download><img src="refs/t_C06_father.jpg" alt="C06_father"><span><b>@image1</b>C06_father</span></a>
-<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image2</b>C07_family</span></a>
-<a href="refs/L02_house.jpg" download><img src="refs/t_L02_house.jpg" alt="L02_house"><span><b>@image3</b>L02_house</span></a>
-</div><textarea class="pr" id="p0" readonly>Fast-cut multishot sequence of 6 short shots: an evening iftar in an ordinary modern Tashkent home, then the father walking to the front door.
-
-HARD CUTS: exactly 6 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 — the father: about 38, short neat beard, grey cable-knit sweater. Matches his character card 100%.
-@image2 — his family: grandmother, grandfather in a doppi, wife in a cream headscarf, a little girl with braids, a boy of 10. They match their card 100%.
-@image3 — the house interior: the dining room with the long iftar table, the hallway and the front door with the frosted glass panel. 100% matches.
-
-SHOTS
-Shot 1 (0.0–2.0s) — Wide at table height: the family from @image2 with more relatives, fourteen people around the long iftar table with plov, non, samsa, dates and Pepsi bottles with yellow caps, everyone talking and laughing. Slow push-in, 28mm.
-Shot 2 (2.0–3.0s) — Close-up over the table: the little girl hands a Pepsi bottle to her grandfather, he takes it with both hands and smiles. 65mm.
-Shot 3 (3.0–4.5s) — Medium: heads turn toward the hallway, the kids freeze with dates in their hands, listening to chanting from the street. 40mm.
-Shot 4 (4.5–6.5s) — Medium close-up of the father at the head of the table: a knowing smile spreads over his face, he puts down his napkin and stands up. 50mm.
-Shot 5 (6.5–8.5s) — Handheld from behind at shoulder height: he walks down the hallway to the front door, patting his trouser pocket for money; the two kids run after him. 32mm.
-Shot 6 (8.5–10.0s) — Close-up: his hand turns the door handle, cool blue street light spills in through the opening door. 50mm.
-
-LIGHTING
-Warm golden practical light (3000K) at the table, softer light in the hallway, cool blue dusk (7000K) through the door glass.
-
-AUDIO
-Room ambience: cutlery, tea pouring, family murmurs without clear words, kids&#x27; laughter, footsteps. No music. Nobody on screen sings.
-
-OUTPUT
-16:9, 10 seconds, real-time speed, photoreal cinematic commercial, subtle film grain. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(0,this)">Копировать промпт</button><a href="prompts/clip1.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 2</span> · Дверь: «не-не-не» + строки 3–4 · 7 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 7 с · звук вкл · без старт-кадра</li>
-</ul><div class="cr">
-<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
-<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
-<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
-<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
-<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
-<a href="refs/C06_father.jpg" download><img src="refs/t_C06_father.jpg" alt="C06_father"><span><b>@image6</b>C06_father</span></a>
-<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image7</b>C07_family</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image8</b>L01_mahalla</span></a>
-<a href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="P02_pepsi_cap"><span><b>@image9</b>P02_pepsi_cap</span></a>
-<a href="audio/audio_C2_door.mp3" download><span class="au"><b>@audio1</b>audio_C2_door.mp3</span></a>
-</div><textarea class="pr" id="p1" readonly>Fast-cut multishot sequence of 7 short shots at the open front door of a modern Tashkent house at blue hour: the father offers money, five young men refuse with gestures, then chant.
-
-SILENCE 0–3s: for the first three seconds nobody speaks or sings. Mouths stay closed, it is pure gesture. The chant starts at 3.0s, in sync with @audio1.
-
-HARD CUTS: exactly 7 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair. They hold round doiras shaped like giant yellow Pepsi caps.
-@image6 — the father. @image7 — his family, seen behind him in the hallway. Everyone matches his or her character card 100%.
-@image8 — the mahalla: use the main house entrance — dark metal-and-wood front door in light stone cladding, stone steps, warm LED wall lamp. 100% matches.
-@image9 — the small yellow Pepsi screw cap with the code printed inside, about 3 cm wide.
-@audio1 — the soundtrack: 3 seconds of silence, then the boys&#x27; chant.
-
-SHOTS
-Shot 1 (0.0–1.0s) — Medium from outside: the door swings open, the father smiles and holds out a few folded banknotes to the boys on the step. 40mm.
-Shot 2 (1.0–2.0s) — Wide over the father&#x27;s shoulder: all five boys grin and, in unison, shake their heads and wave their open palms side to side: no, no, no. 32mm.
-Shot 3 (2.0–3.0s) — Close-up: the lead boy gently pushes the father&#x27;s hand with the money back, then points past him into the house, at the iftar table with Pepsi bottles. 65mm.
-Shot 4 (3.0–4.0s) — Medium on the boys: they chant &quot;Pepsining qopqog&#x27;i bor&quot; in sync with @audio1, the lead boy slaps his yellow cap doira with his palm on the rhyme. 35mm.
-Shot 5 (4.0–5.0s) — Medium close-up of the father: he breaks into a wide smile; behind him his wife, kids and grandmother laugh out loud. 50mm.
-Shot 6 (5.0–6.0s) — Extreme close-up: the boy with glasses holds up the small yellow Pepsi cap between two fingers and flips it to show the code inside, as they chant &quot;Qopqoq ostida kodi bor&quot;. 85mm.
-Shot 7 (6.0–7.0s) — Medium two-shot: the father laughs and raises both hands in surrender, the boys cheer. 35mm.
-
-LIGHTING
-Warm interior light (3000K) spilling out of the door onto the boys&#x27; faces, cool blue-hour street light (7000K) on their backs, the warm LED wall lamp beside the door.
-
-AUDIO
-@audio1 as the voice track; the family&#x27;s laughter at 2–3s and 4–5s; quiet street ambience.
-
-OUTPUT
-16:9, 7 seconds, real-time speed, photoreal cinematic commercial. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(1,this)">Копировать промпт</button><a href="prompts/clip2.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 3</span> · Дроп и код · 10 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-</ul><div class="cr">
-<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
-<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
-<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
-<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
-<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
-<a href="refs/C08_uncle_auntie.jpg" download><img src="refs/t_C08_uncle_auntie.jpg" alt="C08_uncle_auntie"><span><b>@image6</b>C08_uncle_auntie</span></a>
-<a href="refs/C09_girl.jpg" download><img src="refs/t_C09_girl.jpg" alt="C09_girl"><span><b>@image7</b>C09_girl</span></a>
-<a href="refs/C10_youngman.jpg" download><img src="refs/t_C10_youngman.jpg" alt="C10_youngman"><span><b>@image8</b>C10_youngman</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image9</b>L01_mahalla</span></a>
-<a href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="P01_drums_doiras"><span><b>@image10</b>P01_drums_doiras</span></a>
-<a href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="P02_pepsi_cap"><span><b>@image11</b>P02_pepsi_cap</span></a>
-<a href="refs/P03_paynet_code.jpg" download><img src="refs/t_P03_paynet_code.jpg" alt="P03_paynet_code"><span><b>@image12</b>P03_paynet_code</span></a>
-<a href="audio/audio_C3a_street.mp3" download><span class="au"><b>@audio1</b>audio_C3a_street.mp3</span></a>
-</div><textarea class="pr" id="p2" readonly>Fast-cut music-video sequence of 10 short shots in a modern Tashkent mahalla at blue hour: the boys burst into the square, the drums drop, and the whole packed neighbourhood opens caps, scans and enters codes.
-
-HARD CUTS: exactly 10 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
-@image6 — the plump uncle and the auntie. @image7 — the girl in the beige coat. @image8 — the young man in the dark green bomber.
-@image9 — the mahalla location.
-@image10 — the Pepsi-can drums and cap doiras, no sticks: played with bare hands.
-@image11 — the Pepsi bottle and its small yellow cap with the code inside.
-@image12 — the Paynet screen; use exactly this screen and logo.
-Every person matches his or her character card 100%.
-@audio1 — snare roll, drum drop at 2.0s, then the chant; drumming and chanting are in sync with it.
-
-CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
-
-SHOTS
-Shot 1 (0.0–1.0s) — Snare roll. Tracking behind the five boys as they burst out of a metal gate and run into the street. 24mm.
-Shot 2 (1.0–2.0s) — Windows light up, curtains are pulled aside, neighbours swing their gates open and step out pulling on jackets. 35mm.
-Shot 3 (2.0–2.8s) — Drop. Low extreme close-up: the tall boy in the red track jacket slams the giant Pepsi-can drum with bare open palms exactly on the downbeat, the skin ripples. 24mm.
-Shot 4 (2.8–4.0s) — The boys chant &quot;Sariq qopqoqni oching&quot;. Close-up: the plump uncle unscrews the yellow cap of a Pepsi bottle and turns it over, the code inside. 65mm.
-Shot 5 (4.0–5.0s) — Chant &quot;QR kodni skanerlang&quot;. The girl in the beige coat scans the QR code on a Pepsi label with her phone, neighbours crowding behind her. 40mm.
-Shot 6 (5.0–6.0s) — Low wide: the packed square, the boys drumming with bare hands in the centre; around them two neighbours hug, others pass Pepsi bottles to each other. 24mm.
-Shot 7 (6.0–7.0s) — Chant &quot;Kodni Paynetga kiriting&quot;. Close-up: the uncle presses the small yellow cap into the hand of the young man in the green bomber. 65mm.
-Shot 8 (7.0–8.0s) — Over his shoulder: he types the code from the cap into the Paynet app from @image12. 50mm.
-Shot 9 (8.0–9.0s) — Chant &quot;Omadingizni bir sinang!&quot;. Close on the boys slapping their yellow cap doiras and chanting, the crowd jumping behind them. 32mm.
-Shot 10 (9.0–10.0s) — The young man taps the green button and crosses his fingers; a kid hands him a Pepsi bottle. 40mm.
-
-LIGHTING
-Blue hour: warm LED lamps at every gate (3000K), string lights over the square, light haze glowing around the lamps.
-
-AUDIO
-@audio1 as the music and chant; cheering, gates, footsteps on top.
-
-OUTPUT
-16:9, 10 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screen.</textarea><div class="row"><button type="button" onclick="cp(2,this)">Копировать промпт</button><a href="prompts/clip3.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 4</span> · Призы и Kia · 8 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 8 с · звук вкл · без старт-кадра</li>
-</ul><div class="cr">
-<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
-<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
-<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
-<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
-<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
-<a href="refs/C08_uncle_auntie.jpg" download><img src="refs/t_C08_uncle_auntie.jpg" alt="C08_uncle_auntie"><span><b>@image6</b>C08_uncle_auntie</span></a>
-<a href="refs/C10_youngman.jpg" download><img src="refs/t_C10_youngman.jpg" alt="C10_youngman"><span><b>@image7</b>C10_youngman</span></a>
-<a href="refs/C09_girl.jpg" download><img src="refs/t_C09_girl.jpg" alt="C09_girl"><span><b>@image8</b>C09_girl</span></a>
-<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image9</b>C07_family</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image10</b>L01_mahalla</span></a>
-<a href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="P01_drums_doiras"><span><b>@image11</b>P01_drums_doiras</span></a>
-<a href="refs/P04_paynet_win.jpg" download><img src="refs/t_P04_paynet_win.jpg" alt="P04_paynet_win"><span><b>@image12</b>P04_paynet_win</span></a>
-<a href="refs/P05_kia_podium.jpg" download><img src="refs/t_P05_kia_podium.jpg" alt="P05_kia_podium"><span><b>@image13</b>P05_kia_podium</span></a>
-<a href="audio/audio_C3b_prizes.mp3" download><span class="au"><b>@audio1</b>audio_C3b_prizes.mp3</span></a>
-</div><textarea class="pr" id="p3" readonly>Fast-cut music-video sequence of 8 short shots on the packed mahalla square at blue hour: neighbours win prizes, give each other Pepsi, and the grand prize lights up behind the drummers.
-
-HARD CUTS: exactly 8 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
-@image6 — the plump uncle and the auntie. @image7 — the young man in the dark green bomber. @image8 — the girl in the beige coat. @image9 — the family; use the grandmother.
-@image10 — the mahalla location.
-@image11 — the Pepsi-can drums and cap doiras, no sticks: played with bare hands.
-@image12 — the Paynet notification &#x27;+100 000 so&#x27;m&#x27;; use exactly this screen.
-@image13 — the grand prize: the white Kia Sonet Prime with the huge red bow on its LED podium.
-Every person matches his or her character card 100%.
-@audio1 — the soundtrack; drumming and chanting are in sync with it.
-
-CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
-
-SHOTS
-Shot 1 (0.0–1.0s) — The boys chant &quot;Bir yarim million yutuq bor&quot;. Medium: the plump uncle shows his phone (+5 000 so&#x27;m) to the auntie, she laughs, he hands her a Pepsi bottle. 40mm.
-Shot 2 (1.0–2.0s) — Low wide: the boys pound the Pepsi-can drums with bare hands, the crowd around them jumps. 24mm.
-Shot 3 (2.0–3.0s) — Chant &quot;Besh mingdan yuz minggacha bor!&quot;. Extreme close-up of a phone: the Paynet notification from @image12 pops up. 85mm.
-Shot 4 (3.0–4.0s) — The young man in the green bomber grins wide, his friends hug him, a neighbour hands him a Pepsi bottle. 40mm.
-Shot 5 (4.0–5.0s) — Chant &quot;Kia Sonet Prime ham bor&quot;. Behind the drumming boys the white Kia on its podium flashes its LED headlights on with the beat, beams cut through the haze. 32mm.
-Shot 6 (5.0–6.0s) — Close: the big red bow on the Kia roof, the LED podium glowing, a forest of raised phones in the foreground. 50mm.
-Shot 7 (6.0–7.0s) — Chant &quot;Sakkizta mashina bor!&quot;. At a gate the girl in the beige coat hands a Pepsi to the grandmother, who takes it with both hands, smiling. 50mm.
-Shot 8 (7.0–8.0s) — High wide from 4 m: the whole packed square turns to the light, cheering, neighbours clink Pepsi bottles, the boys drumming in the middle. 24mm.
-
-LIGHTING
-Blue hour with warm gate lamps and string lights; from shot 5 the Kia headlights are the brightest source and glow in the haze.
-
-AUDIO
-@audio1 as the music and chant; cheering, a notification ping in shot 3.
-
-OUTPUT
-16:9, 8 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text except the phone screens.</textarea><div class="row"><button type="button" onclick="cp(3,this)">Копировать промпт</button><a href="prompts/clip4.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 5</span> · Финал: Pepsi по кругу · 6 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 6 с · звук вкл · без старт-кадра</li>
-</ul><div class="cr">
-<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
-<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
-<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
-<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
-<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
-<a href="refs/C06_father.jpg" download><img src="refs/t_C06_father.jpg" alt="C06_father"><span><b>@image6</b>C06_father</span></a>
-<a href="refs/C07_family.jpg" download><img src="refs/t_C07_family.jpg" alt="C07_family"><span><b>@image7</b>C07_family</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image8</b>L01_mahalla</span></a>
-<a href="audio/audio_C4_final.mp3" download><span class="au"><b>@audio1</b>audio_C4_final.mp3</span></a>
-</div><textarea class="pr" id="p4" readonly>Fast-cut multishot sequence of 5 short shots on the packed mahalla square at blue hour: the father brings Pepsi to the boys and the bottles go around the whole neighbourhood.
-
-HARD CUTS: exactly 5 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
-@image6 — the father. @image7 — his family: grandparents, wife, kids. Everyone matches his or her character card 100%.
-@image8 — the mahalla: the main house front door, the square, the pergola with the tapchan, string lights. 100% matches.
-@audio1 — the soundtrack; the chant and the final drum hit are in sync with it.
-
-CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
-
-SHOTS
-Shot 1 (0.0–1.2s) — The boys chant &quot;Op chiqing, op chiqing&quot;. The father steps out of his front door with an armful of cold Pepsi bottles with yellow caps. 35mm.
-Shot 2 (1.2–2.4s) — Medium: he hands a bottle to the lead boy, the boy puts a hand on his heart, the others cheer. 40mm.
-Shot 3 (2.4–3.4s) — A beat of silence in the music. Quick handheld: the boys pass bottles on to the neighbours, the little girl runs a bottle to her grandparents on the tapchan, an old man gives his to a young mother. 28mm.
-Shot 4 (3.4–4.3s) — Chant &quot;Pepsi olib chiqing!&quot;. High wide: the whole packed square raises Pepsi bottles high, kids jump. 24mm.
-Shot 5 (4.3–6.0s) — The final drum hit at 4.3s. Close two-shot: the father and the lead boy clink bottles and laugh, string lights glowing behind them. 50mm.
-
-LIGHTING
-Blue hour, warm light from the open door and the gate lamps, string lights overhead.
-
-AUDIO
-@audio1 as the music and chant; cheering and laughter.
-
-OUTPUT
-16:9, 6 seconds, real-time speed, photoreal cinematic commercial. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(4,this)">Копировать промпт</button><a href="prompts/clip5.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 6</span> · Финальный кадр: стол · 5 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 5 с · звук вкл · без старт-кадра</li>
-<li>Аудио-реф: нет</li>
-</ul><div class="cr">
-<a href="refs/P02_pepsi_cap.jpg" download><img src="refs/t_P02_pepsi_cap.jpg" alt="P02_pepsi_cap"><span><b>@image1</b>P02_pepsi_cap</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image2</b>L01_mahalla</span></a>
-</div><textarea class="pr" id="p5" readonly>Slow push-in on a laid table in a mahalla courtyard at blue hour — the calm final frame.
-
-ACTIVE REFERENCES
-@image1 — the Pepsi bottle and its sunflower-yellow cap. 100% matches.
-@image2 — the mahalla: use the pergola with the grapevine, the string lights and the houses behind. 100% matches.
-
-SCENE
-Under the pergola stands a laid table with a white embroidered tablecloth. Sharp in the foreground: one Pepsi bottle with its yellow cap removed and lying next to it, a round Uzbek non with a stamped pattern, a plate of dates and a blue-and-white teapot with two teacups. Behind the table, in soft warm bokeh, a crowd of neighbours stands in small groups, talks, laughs and clinks Pepsi bottles.
-
-TIMELINE
-0–5s — The camera glides slowly toward the Pepsi bottle and the yellow cap. Condensation drops slide down the bottle, steam rises from the teacups, a kid runs across the background, the string lights twinkle.
-
-CAMERA
-Slider push-in at table height, 50mm, 30 cm over 5 seconds, ending with the bottle and the cap large in frame. Shallow depth of field, focus stays on the bottle. No zoom.
-
-LIGHTING
-Warm practical light on the table (3000K), blue hour behind, string-light bokeh.
-
-AUDIO
-Soft ambience: distant laughter and talk, a teacup set down. No music.
-
-OUTPUT
-16:9, 5 seconds, real-time speed, photoreal premium commercial look. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(5,this)">Копировать промпт</button><a href="prompts/clip6.txt" target="_blank">открыть как текст</a></div></div>
-<div class="clip"><h3><span>Клип 7</span> · Перебивки: ребята играют (для монтажа) · 10 с</h3><ul>
-<li>Seedance 2.5 · Omni Reference · 16:9 · 10 с · звук вкл · без старт-кадра</li>
-<li>Аудио-реф тот же, что у клипа 3: кадры встают в монтаже синхронно</li>
-</ul><div class="cr">
-<a href="refs/C01_lead.jpg" download><img src="refs/t_C01_lead.jpg" alt="C01_lead"><span><b>@image1</b>C01_lead</span></a>
-<a href="refs/C02_red.jpg" download><img src="refs/t_C02_red.jpg" alt="C02_red"><span><b>@image2</b>C02_red</span></a>
-<a href="refs/C03_varsity.jpg" download><img src="refs/t_C03_varsity.jpg" alt="C03_varsity"><span><b>@image3</b>C03_varsity</span></a>
-<a href="refs/C04_denim.jpg" download><img src="refs/t_C04_denim.jpg" alt="C04_denim"><span><b>@image4</b>C04_denim</span></a>
-<a href="refs/C05_navy.jpg" download><img src="refs/t_C05_navy.jpg" alt="C05_navy"><span><b>@image5</b>C05_navy</span></a>
-<a href="refs/P01_drums_doiras.jpg" download><img src="refs/t_P01_drums_doiras.jpg" alt="P01_drums_doiras"><span><b>@image6</b>P01_drums_doiras</span></a>
-<a href="refs/L01_mahalla.jpg" download><img src="refs/t_L01_mahalla.jpg" alt="L01_mahalla"><span><b>@image7</b>L01_mahalla</span></a>
-<a href="audio/audio_C3a_street.mp3" download><span class="au"><b>@audio1</b>audio_C3a_street.mp3</span></a>
-</div><textarea class="pr" id="p6" readonly>Fast-cut music-video performance sequence of 8 short shots: five young men play giant Pepsi-can drums and yellow cap doiras with bare hands in the middle of a packed modern Tashkent mahalla square at blue hour.
-
-HARD CUTS: exactly 8 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
-
-ACTIVE REFERENCES
-@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
-@image6 — the giant blue Pepsi-can drums and the yellow Pepsi-cap doiras; no sticks, every drum is played with bare hands.
-@image7 — the mahalla: the square, houses, gates, LED lamps, string lights. 100% matches.
-@audio1 — the soundtrack: snare roll, a massive drum drop at 2.0s, then the chant. Every hit and every word is in sync with it.
-
-CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
-
-SHOTS
-Shot 1 (0.0–1.0s) — Snare roll. Close-up: five pairs of hands hover over the drumheads and doiras, fingers tapping faster and faster. 65mm.
-Shot 2 (1.0–2.0s) — Wide: the crowd presses in around the drummers, phones up, kids on shoulders. 24mm.
-Shot 3 (2.0–3.0s) — Drop. Top-down: three bare palms slam three Pepsi-can drumheads at once, the skins ripple. 28mm.
-Shot 4 (3.0–4.0s) — Close-up of the lead boy chanting, slapping his yellow cap doira. 50mm.
-Shot 5 (4.0–5.0s) — Low wide: all five drumming and chanting, the crowd jumping behind them. 24mm.
-Shot 6 (5.0–6.5s) — Side tracking shot along the row of boys, palms pounding drums and doiras. 35mm.
-Shot 7 (6.5–8.0s) — The tall boy in the red track jacket pounds the biggest drum with both hands, laughing; neighbours clap behind him. 40mm.
-Shot 8 (8.0–10.0s) — High crane wide: the whole packed square dancing around the drummers, Pepsi bottles passed from hand to hand. 24mm.
-
-PHYSICS
-Bare hands strike the drumheads flat with open palms and bounce off; the skins ripple on every hit.
-
-LIGHTING
-Blue hour, warm gate lamps, zigzag string lights, light haze glowing around the lamps.
-
-AUDIO
-@audio1 as the music and chant; cheering on top.
-
-OUTPUT
-16:9, 10 seconds, real-time speed, photoreal cinematic commercial, high-energy music-video editing. No drumsticks. No subtitles. No on-screen text.</textarea><div class="row"><button type="button" onclick="cp(6,this)">Копировать промпт</button><a href="prompts/clip7.txt" target="_blank">открыть как текст</a></div></div>
-<h2>Порядок</h2><ul class="a"><li>Сначала черновики 480p (draft), удачные финалим в 1080p.</li><li>Если Seedance склеивает меньше кадров, чем написано, не страшно: в монтаже режем дальше и добавляем перебивки из клипа 7.</li><li>Если реф-картинку вклеивает целиком как кадр, убери из клипа один-два D-рефа, содержание кадра останется в тексте.</li></ul>
+<h2>Если что-то пошло не так</h2><ul class="a"><li>Seedance склеил меньше кадров, чем написано — нормально: в монтаже режем дальше, раскадровка показывает, что где.</li><li>Путает ребят между собой — оставь карточки только заводилы, красного и очкарика, остальных он нарисует по описанию.</li><li>Сначала черновики 480p (draft), удачные финалим в 1080p.</li></ul>
 <script>
 function done(b,msg){var o='Копировать промпт';b.textContent=msg;setTimeout(function(){b.textContent=o},1800)}
 function cp(i,b){
   var ta=document.getElementById('p'+i), t=ta.value, ok=false;
-  try{
-    ta.removeAttribute('readonly');ta.focus();ta.select();ta.setSelectionRange(0,t.length);
-    ok=document.execCommand('copy');ta.setAttribute('readonly','');
-  }catch(e){ok=false}
+  try{ta.removeAttribute('readonly');ta.focus();ta.select();ta.setSelectionRange(0,t.length);ok=document.execCommand('copy');ta.setAttribute('readonly','');}catch(e){ok=false}
   if(ok){done(b,'Скопировано');return}
-  if(navigator.clipboard&&navigator.clipboard.writeText){
-    navigator.clipboard.writeText(t).then(function(){done(b,'Скопировано')},function(){ta.focus();ta.select();done(b,'Выделено — скопируй вручную')});
-  }else{ta.focus();ta.select();done(b,'Выделено — скопируй вручную')}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){done(b,'Скопировано')},function(){ta.focus();ta.select();done(b,'Выделено — скопируй вручную')});}
+  else{ta.focus();ta.select();done(b,'Выделено — скопируй вручную')}
 }
 </script>
 </div></body></html>
