@@ -1,8 +1,8 @@
-Fast-cut 20-second Ramadan commercial of 17 short shots, filmed like a candid documentary: a family iftar in a modern Tashkent home, five young men at the door who refuse money and ask for Pepsi, then the mahalla wakes up on the drum drop.
+Fast-cut 20-second Ramadan commercial of 14 short shots, filmed like a candid documentary: a family iftar in a modern Tashkent home, five young men at the door who refuse money and ask for Pepsi, then the mahalla wakes up on the drum drop.
 
-DOCUMENTARY LOOK: handheld cameras hidden among the people catch moments as they happen. Nobody looks into the lens or shows anything to the camera. People stand at random spots, overlap and talk over each other; foreground heads often block part of the shot. Every shot is a glimpse of one continuous real-time event.
+DOCUMENTARY LOOK: handheld cameras hidden among the people catch moments as they happen. Nobody looks into the lens or shows anything to the camera. People stand at random spots, overlap and talk over each other; foreground heads often block part of the shot. Every shot is a glimpse of one continuous real-time event. The boys sing to each other as much as to anyone; the people around keep talking among themselves.
 
-HARD CUTS: exactly 17 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+HARD CUTS: exactly 14 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
 SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is gesture and laughter. Nobody inside the house ever sings — the chanting comes from the boys outside.
 
@@ -21,16 +21,13 @@ SHOTS
 5 (5.5–7.0s) — Loosely following from behind: he walks down the hallway patting his pocket; two kids slip past him.
 6 (7.0–8.0s) — From hip level: his hand digs folded banknotes out of his pocket on the move.
 7 (8.0–10.0s) — Over his shoulder, half-blocked by the door frame: the door opens at 8.4s onto five boys crowded on the step mid-chant, looking at each other and at him.
-8 (10.0–11.2s) — From the side: he holds out the money; the boys laugh and wave it off with their palms.
-9 (11.2–12.3s) — Close, from below: the curly boy gently pushes the money back and nods toward the iftar table.
-10 (12.3–13.3s) — From the hallway between the wife and a kid: the boys chant "Pepsining qopqog'i bor", slapping their doiras, grinning at each other.
-11 (13.3–14.4s) — The father in profile cracks up; behind him the wife laughs into her hand.
-12 (14.4–15.4s) — Over the glasses boy's shoulder: he flips a yellow Pepsi cap in his fingers, the code inside, as they chant "Qopqoq ostida kodi bor".
-13 (15.4–16.1s) — From the street: the father throws up his hands laughing; the boys are already turning away.
-14 (16.1–17.1s) — Snare roll. Running behind the boys as they spill out of the gate; one looks back laughing.
-15 (17.1–18.0s) — Down the street at once: a curtain moves, a man pulls on his jacket in a gateway, kids run out.
-16 (18.0–19.0s) — Drop. Low, between people's legs: bare palms slam a giant Pepsi-can drum; a crowd is already forming.
-17 (19.0–20.0s) — Through the crowd: the plump uncle unscrews a Pepsi cap at his gate and peers at the code, talking to someone off-frame — "Sariq qopqoqni oching".
+8 (10.0–12.3s) — From the side on the step: he holds out the money; the boys laugh and wave it off with their palms, talking over each other; the father shrugs and puts it away.
+9 (12.3–14.4s) — Over the glasses boy's shoulder on the step: he pulls a yellow Pepsi cap from his pocket and flips it in his fingers, the code inside, as the boys chant "Pepsining qopqog'i bor" to each other.
+10 (14.4–16.1s) — From the street: the father in the doorway throws up his hands laughing; the boys, chanting "Qopqoq ostida kodi bor" to each other, are already turning away.
+11 (16.1–17.1s) — Snare roll. Running behind the boys as they spill out of the gate; one looks back laughing.
+12 (17.1–18.0s) — Down the street at once: a curtain moves, a man pulls on his jacket in a gateway, kids run out.
+13 (18.0–19.0s) — Drop. Low, between people's legs: bare palms slam a giant Pepsi-can drum; a crowd is already forming.
+14 (19.0–20.0s) — Through the crowd: the plump uncle unscrews a Pepsi cap at his gate and peers at the code, talking to someone off-frame — "Sariq qopqoqni oching".
 
 LIGHTING
 Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights.
