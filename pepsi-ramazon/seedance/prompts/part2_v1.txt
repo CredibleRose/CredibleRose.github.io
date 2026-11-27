@@ -1,6 +1,6 @@
-Fast-cut 20-second Ramadan commercial of 19 short shots, filmed like a candid documentary on a packed modern Tashkent mahalla square at blue hour.
+Fast-cut 20-second Ramadan commercial of 19 short shots, filmed like a candid documentary. On a packed modern Tashkent mahalla square at blue hour.
 
-DOCUMENTARY LOOK: handheld cameras hidden in the crowd catch moments as they happen. Nobody looks into the lens or shows a phone, cap or bottle to the camera. Dozens of people of all ages at random spots, overlapping, each busy with their own thing; foreground heads often block part of the shot. The boys play in a loose circle inside the crowd and sing to each other and to the neighbours next to them, trading looks and laughs — never toward the camera, never like a stage show. Around them people keep talking to each other: greeting, joking, chatting over the music.
+DOCUMENTARY LOOK: handheld cameras hidden in the crowd catch moments as they happen. Nobody looks into the lens or shows a phone, cap or bottle to the camera. Dozens of people of all ages at random spots, overlapping, each busy with their own thing; foreground heads often block part of the shot. The boys play in a loose circle inside the crowd and sing to each other and to the neighbours next to them — never toward the camera, never like a stage show. Around them people keep talking to each other: greeting, joking, chatting over the music.
 
 HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
@@ -35,10 +35,10 @@ SHOTS
 19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
 
 LIGHTING
-Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from shot 11.
+Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on.
 
 AUDIO
-@audio1 as music and chant; crowd noise, a notification ping in shot 9.
+@audio1 as music and chant; crowd noise, a notification ping on the win.
 
 OUTPUT
 16:9, 20 seconds, real-time speed, photoreal, natural handheld documentary feel with music-video cutting. No drumsticks. No subtitles. No on-screen text except the phone screens.
