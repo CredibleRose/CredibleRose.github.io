@@ -1,9 +1,9 @@
 Fast-cut 20-second Ramadan commercial of 19 short shots, filmed like a candid documentary. On a mahalla square at blue hour, alternating high balcony views with ground-level moments; every high view shows the crowd bigger than before.
 
-LOOK & MOOD: candid handheld documentary, nobody looks into the lens. Warm, kind and joyful, like the night the whole street comes out together to celebrate New Year. The party keeps growing — every shot has more people than the last; neighbours of all ages, many women and girls in neat modern headscarves, talk, laugh, congratulate each other, hug, give and drink Pepsi. The boys with their doiras are part of the party, singing to each other and to people nearby, never a show.
-DEPTH: every street shot is layered — passers-by cross close in front of the lens, the main action in the middle, neighbours congratulating behind, people hugging further back, someone stepping out of a house far back.
+LOOK & MOOD: candid handheld documentary, nobody looks into the lens; warm, kind and joyful, like the night the whole street comes out to celebrate New Year. The party keeps growing shot by shot; neighbours of all ages, many women and girls in neat modern headscarves, talk, laugh, congratulate, hug, give each other Pepsi and drink it together. The boys with their doiras are part of the party, not a show.
+DEPTH: every street shot is layered — passers-by crossing close in front of the lens, the action in the middle, people congratulating and hugging behind, someone stepping out of a house far back.
 
-RULES: only the five boys sing the lyrics from @audio1; everyone else just talks. Hugs only between men or between women; men and women never hug or touch. Nobody clinks bottles. The boys mostly play the yellow cap doiras held up at shoulder height, struck with their fingers, jingles shaking; the tall Pepsi-can drums are played standing; no drum is ever held between the knees.
+RULES: only the five boys sing the lyrics from @audio1; everyone else just talks. Hugs only between men or between women; men and women never hug or touch. DRINKING: each person sips from their own bottle while chatting; bottles never touch and are never raised toward each other — no toasts. The boys mostly play yellow cap doiras held up at shoulder height, struck with their fingers; tall Pepsi-can drums are played standing, never between the knees.
 
 HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
@@ -21,7 +21,7 @@ SHOTS
 2 (1.0–2.0s) — Ground level over the girl's shoulder: she scans the QR on a Pepsi label, her friend chatting; a passer-by crosses in front; behind them people congratulate each other and hug, and far back someone steps out of a house.
 3 (2.0–3.0s) — Hands only: the uncle drops the yellow cap into the young man's palm mid-conversation.
 4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14.
-5 (3.9–4.9s) — High again: the square fuller; in the middle the boys sing to each other while neighbours dance around them.
+5 (3.9–4.9s) — High again: the square fuller; around the boys whole families drink Pepsi and pass bottles to each other while they chat.
 6 (4.9–5.9s) — Ground: he taps the green button and crosses his fingers; friends lean over.
 7 (5.9–6.9s) — The uncle shows +5 000 so'm to the auntie, she laughs, he hands her a Pepsi.
 8 (6.9–7.9s) — High: the square packed now, people dancing, bottles passing overhead.
@@ -33,12 +33,12 @@ SHOTS
 14 (12.8–13.8s) — Ground: two women in headscarves hug next to the boys playing doiras; one hands the other a Pepsi.
 15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow.
 16 (15.0–16.0s) — Half-blocked by a passer-by: he hands a Pepsi to the curly boy, who touches his heart.
-17 (16.0–17.0s) — Drums stop. Following bottles hand to hand; the little girl runs one to her grandparents on the tapchan.
-18 (17.0–18.0s) — High from the balcony: bottles rise all over the packed square, not in sync.
+17 (16.0–17.0s) — Drums stop. All over the square people hand Pepsi to each other — a man to his neighbour, a girl to her friend, the little girl to her grandparents on the tapchan.
+18 (17.0–18.0s) — High from the balcony: the whole packed square drinking Pepsi together, everyone sipping from their own bottle while they talk.
 19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
 
 LIGHTING
-Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on.
+Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on. Keep the dark evening exposure of the references in every shot: deep blue sky, deep shadows, light only from lamps, windows and headlights. Never brighten the image; headlights add beams, not brightness.
 
 AUDIO
 @audio1 as music and chant; crowd noise, a notification ping on the win.

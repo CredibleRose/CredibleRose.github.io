@@ -4,7 +4,7 @@ STYLE: monumental minimalism — vast symmetrical wide shots where people are sm
 
 NATURAL BEHAVIOUR: people behave naturally and never pose or look into the lens; everyone is busy with their own thing and talks to each other. The boys play in a loose circle and sing to each other and to the people around, not to the camera. On the square someone is always giving, receiving or drinking a Pepsi, or hugging someone. MOOD: warm, kind and joyful, like the night the whole street comes out together to celebrate New Year. The party keeps growing shot by shot; every street frame is layered — passers-by crossing close in front of the lens, people congratulating and hugging behind, someone stepping out of a house far back. Many women and girls wear neat modern headscarves; hugs only between men or between women.
 
-RULES: only the five boys sing the lyrics from @audio1; everyone else just talks. Hugs only between men or between women; men and women never hug or touch. Nobody clinks bottles. The boys mostly play the yellow cap doiras held up at shoulder height, struck with their fingers, jingles shaking; the tall Pepsi-can drums are played standing; no drum is ever held between the knees.
+RULES: only the five boys sing the lyrics from @audio1; everyone else just talks. Hugs only between men or between women; men and women never hug or touch. DRINKING: each person sips from their own bottle while chatting; bottles never touch and are never raised toward each other — no toasts. The boys mostly play yellow cap doiras held up at shoulder height, struck with their fingers; tall Pepsi-can drums are played standing, never between the knees.
 
 HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
@@ -27,7 +27,7 @@ SHOTS
 5 (3.9–4.9s) — Close: the curly boy's doira raised at shoulder height, his fingers drumming the skin, jingles shaking; next to him a neighbour hands the red-jacket boy a Pepsi and he takes a quick sip.
 6 (4.9–5.9s) — From the side: he taps the green button and crosses his fingers; friends lean over him.
 7 (5.9–6.9s) — Off-centre: the uncle shows his phone to the auntie, she laughs, he hands her a Pepsi.
-8 (6.9–7.9s) — On the tapchan the grandfather takes a long sip of Pepsi, eyes closed with pleasure, while the boys play doiras nearby; a kid sets another bottle next to him.
+8 (6.9–7.9s) — Among the tables: dozens of neighbours chatting and drinking Pepsi, each from their own bottle; on the tapchan the grandfather takes a long sip, eyes closed with pleasure, while the boys play doiras nearby.
 9 (7.9–8.9s) — Over two friends' shoulders: his screen lights up with the notification from @image15; they laugh.
 10 (8.9–9.8s) — His male friends grab him in a jumping hug; a neighbour pushes a Pepsi into his hand from the side.
 11 (9.8–10.8s) — From the back of the crowd: behind the drummers the Kia flashes its headlights on, heads turn; on a balcony above, a man who has just stepped out to see what's going on freezes, staring.
@@ -36,12 +36,12 @@ SHOTS
 14 (12.8–13.8s) — Two young women in headscarves look at one phone, squeal with joy at a win and hug each other, Pepsi bottles in their hands.
 15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow.
 16 (15.0–16.0s) — Half-blocked by a passer-by: he hands a Pepsi to the curly boy, who touches his heart.
-17 (16.0–17.0s) — Drums stop. Following bottles hand to hand; the little girl runs one to her grandparents on the tapchan.
-18 (17.0–18.0s) — From an upstairs window, past a neighbour in a doppi who has just leaned out to see what's going on: bottles go up all over the square, not in sync.
+17 (16.0–17.0s) — Drums stop. All over the square people hand Pepsi to each other — a man to his neighbour, a girl to her friend, the little girl to her grandparents on the tapchan.
+18 (17.0–18.0s) — From an upstairs window, past a neighbour in a doppi who has just leaned out to see what's going on: the whole packed square is drinking Pepsi together — dozens of neighbours each sipping from their own bottle while they talk and laugh.
 19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
 
 LIGHTING
-Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on.
+Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on. Keep the dark evening exposure of the references in every shot: deep blue sky, deep shadows, light only from lamps, windows and headlights. Never brighten the image; headlights add beams, not brightness.
 
 AUDIO
 @audio1 as music and chant; crowd noise, a notification ping on the win.

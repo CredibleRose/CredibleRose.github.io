@@ -5,7 +5,7 @@ DOCUMENTARY LOOK: handheld cameras hidden among the people catch moments as they
 HARD CUTS: exactly 13 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
 SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is a quiet gesture.
-RULES: only the five boys sing the lyrics from @audio1; everyone else just talks, nobody inside the house sings. No money anywhere in frame; the father's hand only moves toward his pocket and is stopped. The boys hold their yellow cap doiras up at shoulder height and strike them with their fingers; no drum between the knees. No hugging or touching between men and women; nobody clinks bottles.
+RULES: only the five boys sing the lyrics from @audio1; everyone else just talks, nobody inside the house sings. No money anywhere in frame; the father's hand only moves toward his pocket and is stopped. The boys hold their yellow cap doiras up at shoulder height and strike them with their fingers; no drum between the knees. No hugging or touching between men and women. DRINKING: each person sips from their own bottle while chatting; bottles never touch and are never raised toward each other — no toasts.
 
 ACTIVE REFERENCES
 @image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
@@ -30,7 +30,7 @@ SHOTS
 13 (19.0–20.0s) — A kid hands the plump uncle a Pepsi; he silently unscrews the cap and looks at the code.
 
 LIGHTING
-Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights.
+Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights. Keep the dark evening exposure of the references in every shot: deep blue sky, deep shadows, light only from lamps and windows. Never brighten the image.
 
 AUDIO
 @audio1 as music and chant; laughter, footsteps, the door, street noise on top.
