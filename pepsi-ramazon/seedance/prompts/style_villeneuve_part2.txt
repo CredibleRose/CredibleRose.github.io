@@ -1,0 +1,50 @@
+20-second Ramadan commercial of 19 short shots on a packed modern Tashkent mahalla square at blue hour.
+
+STYLE: monumental minimalism — vast symmetrical wide shots where people are small against the houses and sky, slow measured camera moves, long lenses, silhouettes in haze, muted desaturated palette with a strong warm-against-cool contrast, quiet weight before every hit.
+
+NATURAL BEHAVIOUR: people behave naturally and never pose or look into the lens; everyone is busy with their own thing and talks to each other. The boys play in a loose circle and sing to each other and to the people around, not to the camera.
+
+SINGING: only the five boys sing the lyrics from @audio1. Everyone else only talks quietly among themselves and never sings or mouths the lyrics.
+
+HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+
+ACTIVE REFERENCES
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 father · @image7 his family · @image8 plump uncle and auntie · @image9 girl in the beige coat · @image10 young man in the green bomber. Everyone matches his or her card 100%.
+@image11 — the mahalla location.
+@image12 — drums and cap doiras, no sticks, played with bare hands. @image13 — Pepsi bottle and yellow cap with the code.
+@image14, @image15 — the Paynet screens; use them exactly.
+@image16 — the Kia Sonet Prime prize with the red bow on its podium.
+@audio1 — chant over drums; drums stop at 16.0s; heavy final hits from 18.0s.
+
+STYLE BEATS: The Kia on its podium is revealed in a vast symmetrical wide, the crowd small and dark against its headlights in the haze.
+
+SHOTS
+1 (0.0–1.0s) — Over the girl's shoulder: her phone scans the QR on a Pepsi label while her friend leans in chatting.
+2 (1.0–2.0s) — Wide from inside the crowd: the boys drum in a loose circle, singing to each other; around them people chat, hug, pass bottles.
+3 (2.0–3.0s) — Hands only: the uncle drops the yellow cap into the young man's palm mid-conversation.
+4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14; someone bumps past.
+5 (3.9–4.9s) — The boys sing to each other over their doiras, laughing; next to them two neighbours chat, kids run around.
+6 (4.9–5.9s) — From the side: he taps the green button and crosses his fingers; friends lean over him.
+7 (5.9–6.9s) — Off-centre: the uncle shows his phone to the auntie, she laughs, he hands her a Pepsi.
+8 (6.9–7.9s) — Low in the crowd: bare palms pounding the drums while a neighbour leans in and jokes with the drummer.
+9 (7.9–8.9s) — Over two friends' shoulders: his screen lights up with the notification from @image15; they laugh.
+10 (8.9–9.8s) — Friends pull him into a hug; a neighbour pushes a Pepsi into his hand from the side.
+11 (9.8–10.8s) — From the back of the crowd: behind the drummers the Kia flashes its headlights on, heads turn.
+12 (10.8–11.8s) — Between raised phones: the red bow on the Kia roof, the glowing podium.
+13 (11.8–12.8s) — At a gate, past passers-by: the girl hands a Pepsi to the grandmother, who takes it with both hands, chatting.
+14 (12.8–13.8s) — High from a balcony: the whole square swirling toward the light, bottles clinking.
+15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow.
+16 (15.0–16.0s) — Half-blocked by a passer-by: he hands a Pepsi to the curly boy, who touches his heart.
+17 (16.0–17.0s) — Drums stop. Following bottles hand to hand; the little girl runs one to her grandparents on the tapchan.
+18 (17.0–18.0s) — Wide from the crowd: bottles go up all over the square, not in sync.
+19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
+
+LIGHTING
+Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on.
+
+AUDIO
+@audio1 as music and chant; crowd noise, a notification ping on the win.
+
+OUTPUT
+16:9, 20 seconds, real-time speed, photoreal, cinematic commercial in the style described above. No drumsticks. No subtitles. No on-screen text except the phone screens.

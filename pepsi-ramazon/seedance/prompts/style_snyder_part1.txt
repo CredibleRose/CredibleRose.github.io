@@ -1,0 +1,43 @@
+20-second Ramadan commercial of 12 short shots. An ordinary evening caught as it happens: a family iftar, a song at the door, the boys gently stop the father's hand on its way to his pocket, the street comes out.
+
+STYLE: stylised speed ramps synced to the drum hits — fast, then slow motion, then fast again — high-contrast desaturated grade with crushed blacks, strong rim light and silhouettes, dust and light particles floating in the air, painterly tableau compositions with shallow depth of field.
+
+NATURAL BEHAVIOUR: people behave naturally and never pose or look into the lens; everyone is busy with their own thing and talks to each other. The boys play in a loose circle and sing to each other and to the people around, not to the camera.
+
+HARD CUTS: exactly 12 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+
+SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is a quiet gesture.
+SINGING: only the five boys sing the lyrics from @audio1. Everyone else only talks quietly among themselves and never sings or mouths the lyrics; nobody inside the house sings.
+NO MONEY: no banknotes or money appear anywhere in frame; the father's hand only goes toward his pocket and is stopped.
+
+ACTIVE REFERENCES
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 father · @image7 his family · @image8 plump uncle and auntie. Everyone matches his or her card 100%.
+@image9 — the house interior. @image10 — the mahalla outside.
+@image11 — drums and cap doiras, no sticks, played with bare hands. @image12 — Pepsi bottle and yellow cap with the code.
+@audio1 — muffled chanting through the door until 8.4s, clear once the door opens, silence 10.0–12.3s, chant, snare roll from 16.1s, drum drop at 18.0s.
+
+STYLE BEATS: The door opening is a speed ramp into slow motion as the light falls on the boys; on the drop the palms hit the drumhead in deep slow motion, dust and particles leaping off the skin.
+
+SHOTS
+1 (0.0–2.0s) — Between relatives' shoulders: the long iftar table, people eating and talking, someone passing plov, someone pouring tea, Pepsi bottles among the dishes.
+2 (2.0–3.5s) — The little girl slides a Pepsi to her grandfather while he talks; he takes it without looking.
+3 (3.5–5.0s) — A couple of heads turn toward the hallway, listening to the singing outside; the conversation goes on around them.
+4 (5.0–6.5s) — The father smiles to himself, puts down his tea and gets up.
+5 (6.5–8.4s) — Following him loosely down the hallway; two kids slip past him to the door.
+6 (8.4–10.0s) — Over his shoulder: he opens the door and his hand starts going to his trouser pocket; on the step the five boys are finishing the line, looking at each other and at him.
+7 (10.0–12.3s) — Silence. From the side: one boy sees the hand going to the pocket and stops it with a light touch and a small shake of the head; the others smile. The hand never comes out of the pocket.
+8 (12.3–14.4s) — Over the glasses boy's shoulder: he turns a yellow Pepsi cap over in his fingers while the boys sing to each other.
+9 (14.4–16.1s) — The father laughs quietly; the boys are already turning back toward the street, still singing.
+10 (16.1–18.0s) — Snare roll. Behind the boys as they go out of the gate; along the street windows light up and neighbours step out of their gates.
+11 (18.0–19.0s) — Drop. Low among people: bare palms hit a giant Pepsi-can drum; people gathering around.
+12 (19.0–20.0s) — At his gate the plump uncle silently unscrews a Pepsi cap and looks at the code inside, a neighbour beside him.
+
+LIGHTING
+Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights.
+
+AUDIO
+@audio1 as music and chant; laughter, footsteps, the door, street noise on top.
+
+OUTPUT
+16:9, 20 seconds, real-time speed, photoreal, cinematic commercial in the style described above. No drumsticks. No subtitles. No on-screen text.
