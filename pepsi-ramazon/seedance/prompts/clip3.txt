@@ -3,34 +3,31 @@ Fast-cut music-video sequence of 10 short shots in a modern Tashkent mahalla at 
 HARD CUTS: exactly 10 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
 ACTIVE REFERENCES
-@image1 — the five boys exactly as in the reference, all 18, boyish faces, no facial hair.
-@image2 — the boys playing the giant Pepsi-can drums with bare hands in the middle of a dense crowd: shots 3, 6 and 9. 100% matches.
-@image3 — the plump uncle with the yellow cap and the code: shot 4.
-@image4 — the girl scanning the QR code among neighbours: shot 5.
-@image5 — the young man in the dark green bomber entering the code: shots 7–8.
-@image6 — the Paynet app screen; use exactly this screen and logo.
-@image7 — the drums and doiras: no sticks, every drum is played with bare hands.
-@audio1 — the soundtrack: snare roll, a massive drum drop at 2.0s, then the chant. Drumming and chanting are in sync with it.
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 — the plump uncle and the auntie. @image7 — the girl in the beige coat. @image8 — the young man in the dark green bomber.
+@image9 — the mahalla location.
+@image10 — the Pepsi-can drums and cap doiras, no sticks: played with bare hands.
+@image11 — the Pepsi bottle and its small yellow cap with the code inside.
+@image12 — the Paynet screen; use exactly this screen and logo.
+Every person matches his or her character card 100%.
+@audio1 — snare roll, drum drop at 2.0s, then the chant; drumming and chanting are in sync with it.
 
-CROWD: in every street shot the square is packed — dozens of neighbours of every age, kids on their fathers' shoulders, grandparents, phones glowing, people clapping, jumping and handing Pepsi bottles to each other.
+CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
 
 SHOTS
 Shot 1 (0.0–1.0s) — Snare roll. Tracking behind the five boys as they burst out of a metal gate and run into the street. 24mm.
 Shot 2 (1.0–2.0s) — Windows light up, curtains are pulled aside, neighbours swing their gates open and step out pulling on jackets. 35mm.
-Shot 3 (2.0–2.8s) — Drop. Low extreme close-up: the tall boy's bare open palms slam the giant Pepsi-can drum exactly on the downbeat, the skin ripples. 24mm.
+Shot 3 (2.0–2.8s) — Drop. Low extreme close-up: the tall boy in the red track jacket slams the giant Pepsi-can drum with bare open palms exactly on the downbeat, the skin ripples. 24mm.
 Shot 4 (2.8–4.0s) — The boys chant "Sariq qopqoqni oching". Close-up: the plump uncle unscrews the yellow cap of a Pepsi bottle and turns it over, the code inside. 65mm.
 Shot 5 (4.0–5.0s) — Chant "QR kodni skanerlang". The girl in the beige coat scans the QR code on a Pepsi label with her phone, neighbours crowding behind her. 40mm.
 Shot 6 (5.0–6.0s) — Low wide: the packed square, the boys drumming with bare hands in the centre; around them two neighbours hug, others pass Pepsi bottles to each other. 24mm.
 Shot 7 (6.0–7.0s) — Chant "Kodni Paynetga kiriting". Close-up: the uncle presses the small yellow cap into the hand of the young man in the green bomber. 65mm.
-Shot 8 (7.0–8.0s) — Over his shoulder: he types the code from the cap into the Paynet app from @image6. 50mm.
+Shot 8 (7.0–8.0s) — Over his shoulder: he types the code from the cap into the Paynet app from @image12. 50mm.
 Shot 9 (8.0–9.0s) — Chant "Omadingizni bir sinang!". Close on the boys slapping their yellow cap doiras and chanting, the crowd jumping behind them. 32mm.
 Shot 10 (9.0–10.0s) — The young man taps the green button and crosses his fingers; a kid hands him a Pepsi bottle. 40mm.
 
-PHYSICS
-Bare hands strike the drumheads flat with open palms and bounce off; the skins ripple on every hit.
-
 LIGHTING
-Blue hour: deep blue sky, warm LED lamps at every gate (3000K), string lights zigzag over the square, warm windows, light haze glowing around the lamps.
+Blue hour: warm LED lamps at every gate (3000K), string lights over the square, light haze glowing around the lamps.
 
 AUDIO
 @audio1 as the music and chant; cheering, gates, footsteps on top.

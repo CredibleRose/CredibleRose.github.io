@@ -5,23 +5,23 @@ SILENCE 0–3s: for the first three seconds nobody speaks or sings. Mouths stay 
 HARD CUTS: exactly 7 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
 ACTIVE REFERENCES
-@image1 — the doorway, the father and the boys on the step: shots 1–3 and 7. 100% matches.
-@image2 — the father's face in the doorway with his laughing family behind him: shot 5. 100% matches.
-@image3 — the five boys exactly as in the reference, all 18, boyish faces, no facial hair. Lead boy: curly hair, blue puffer vest over a white hoodie. They hold round doiras shaped like giant yellow Pepsi caps.
-@image4 — the small yellow Pepsi screw cap with the code printed inside, about 3 cm wide.
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair. They hold round doiras shaped like giant yellow Pepsi caps.
+@image6 — the father. @image7 — his family, seen behind him in the hallway. Everyone matches his or her character card 100%.
+@image8 — the mahalla: use the main house entrance — dark metal-and-wood front door in light stone cladding, stone steps, warm LED wall lamp. 100% matches.
+@image9 — the small yellow Pepsi screw cap with the code printed inside, about 3 cm wide.
 @audio1 — the soundtrack: 3 seconds of silence, then the boys' chant.
 
 SHOTS
-Shot 1 (0.0–1.0s) — Medium from outside: the door swings open, the father smiles and holds out a few folded banknotes to the boys. 40mm.
+Shot 1 (0.0–1.0s) — Medium from outside: the door swings open, the father smiles and holds out a few folded banknotes to the boys on the step. 40mm.
 Shot 2 (1.0–2.0s) — Wide over the father's shoulder: all five boys grin and, in unison, shake their heads and wave their open palms side to side: no, no, no. 32mm.
 Shot 3 (2.0–3.0s) — Close-up: the lead boy gently pushes the father's hand with the money back, then points past him into the house, at the iftar table with Pepsi bottles. 65mm.
 Shot 4 (3.0–4.0s) — Medium on the boys: they chant "Pepsining qopqog'i bor" in sync with @audio1, the lead boy slaps his yellow cap doira with his palm on the rhyme. 35mm.
 Shot 5 (4.0–5.0s) — Medium close-up of the father: he breaks into a wide smile; behind him his wife, kids and grandmother laugh out loud. 50mm.
-Shot 6 (5.0–6.0s) — Extreme close-up: the boy in the denim jacket holds up the small yellow Pepsi cap between two fingers and flips it to show the code inside, as they chant "Qopqoq ostida kodi bor". 85mm.
+Shot 6 (5.0–6.0s) — Extreme close-up: the boy with glasses holds up the small yellow Pepsi cap between two fingers and flips it to show the code inside, as they chant "Qopqoq ostida kodi bor". 85mm.
 Shot 7 (6.0–7.0s) — Medium two-shot: the father laughs and raises both hands in surrender, the boys cheer. 35mm.
 
 LIGHTING
-Warm interior light (3000K) spilling out of the door onto the boys' faces, cool blue-hour street light (7000K) on their backs, a warm LED wall lamp beside the door.
+Warm interior light (3000K) spilling out of the door onto the boys' faces, cool blue-hour street light (7000K) on their backs, the warm LED wall lamp beside the door.
 
 AUDIO
 @audio1 as the voice track; the family's laughter at 2–3s and 4–5s; quiet street ambience.

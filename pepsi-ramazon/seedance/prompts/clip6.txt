@@ -1,10 +1,14 @@
 Slow push-in on a laid table in a mahalla courtyard at blue hour — the calm final frame.
 
 ACTIVE REFERENCES
-Start frame — the table exactly as in the uploaded first frame: the Pepsi bottle, the yellow cap lying next to it, the round non, the plate of dates, the blue-and-white teapot, the neighbours in the background. 100% matches.
+@image1 — the Pepsi bottle and its sunflower-yellow cap. 100% matches.
+@image2 — the mahalla: use the pergola with the grapevine, the string lights and the houses behind. 100% matches.
+
+SCENE
+Under the pergola stands a laid table with a white embroidered tablecloth. Sharp in the foreground: one Pepsi bottle with its yellow cap removed and lying next to it, a round Uzbek non with a stamped pattern, a plate of dates and a blue-and-white teapot with two teacups. Behind the table, in soft warm bokeh, a crowd of neighbours stands in small groups, talks, laughs and clinks Pepsi bottles.
 
 TIMELINE
-0–5s — The camera glides slowly toward the Pepsi bottle and the yellow cap. Condensation drops slide down the bottle, steam rises from the teacups. Behind the table, in soft warm bokeh, a crowd of neighbours stands in small groups, talks, laughs and clinks Pepsi bottles; a kid runs across; the string lights twinkle.
+0–5s — The camera glides slowly toward the Pepsi bottle and the yellow cap. Condensation drops slide down the bottle, steam rises from the teacups, a kid runs across the background, the string lights twinkle.
 
 CAMERA
 Slider push-in at table height, 50mm, 30 cm over 5 seconds, ending with the bottle and the cap large in frame. Shallow depth of field, focus stays on the bottle. No zoom.

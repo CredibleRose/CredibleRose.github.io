@@ -3,18 +3,17 @@ Fast-cut multishot sequence of 5 short shots on the packed mahalla square at blu
 HARD CUTS: exactly 5 shots. The picture cuts only at the marked times, every cut is a clean hard cut on the beat, every shot is a new angle. No dissolves, no morphing between shots.
 
 ACTIVE REFERENCES
-@image1 — the father handing Pepsi to the lead boy among the boys: shots 1–2 and 5. 100% matches.
-@image2 — the full yard with neighbours of every age, the tapchan and the drums: shots 3–4. 100% matches.
-@image3 — the five boys, all 18, boyish faces, no facial hair. Lead boy: curly hair, blue puffer vest over a white hoodie.
-@image4 — the father (about 38, short neat beard, grey cable-knit sweater) and the neighbours.
+@image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
+@image6 — the father. @image7 — his family: grandparents, wife, kids. Everyone matches his or her character card 100%.
+@image8 — the mahalla: the main house front door, the square, the pergola with the tapchan, string lights. 100% matches.
 @audio1 — the soundtrack; the chant and the final drum hit are in sync with it.
 
-CROWD: in every street shot the square is packed — dozens of neighbours of every age, kids on their fathers' shoulders, grandparents, phones glowing, people clapping, jumping and handing Pepsi bottles to each other.
+CROWD: every street shot is packed with dozens of neighbours of all ages — kids on shoulders, grandparents, glowing phones, people clapping and handing Pepsi bottles to each other.
 
 SHOTS
 Shot 1 (0.0–1.2s) — The boys chant "Op chiqing, op chiqing". The father steps out of his front door with an armful of cold Pepsi bottles with yellow caps. 35mm.
-Shot 2 (1.2–2.4s) — Medium: he hands a bottle to the curly-haired lead boy, the boy puts a hand on his heart, the others cheer. 40mm.
-Shot 3 (2.4–3.4s) — A beat of silence in the music. Quick handheld: the boys pass bottles on to the neighbours, a kid runs a bottle to the grandparents on the tapchan, an old man gives his to a young mother. 28mm.
+Shot 2 (1.2–2.4s) — Medium: he hands a bottle to the lead boy, the boy puts a hand on his heart, the others cheer. 40mm.
+Shot 3 (2.4–3.4s) — A beat of silence in the music. Quick handheld: the boys pass bottles on to the neighbours, the little girl runs a bottle to her grandparents on the tapchan, an old man gives his to a young mother. 28mm.
 Shot 4 (3.4–4.3s) — Chant "Pepsi olib chiqing!". High wide: the whole packed square raises Pepsi bottles high, kids jump. 24mm.
 Shot 5 (4.3–6.0s) — The final drum hit at 4.3s. Close two-shot: the father and the lead boy clink bottles and laugh, string lights glowing behind them. 50mm.
 
