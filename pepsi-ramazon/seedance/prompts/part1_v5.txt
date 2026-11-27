@@ -1,10 +1,12 @@
-Fast-cut 20-second Ramadan commercial of 14 short shots, filmed like a candid documentary. Comedy: the whole family competes to hand the father money, he proudly carries a whole fan of banknotes to the door, and the boys want Pepsi, not money.
+Fast-cut 20-second Ramadan commercial of 12 short shots, filmed like a candid documentary. At first the song is only heard — a faint doira behind the wall, silhouettes behind frosted glass; when the door opens the sound turns clear, and on the snare roll the street comes alive.
 
 DOCUMENTARY LOOK: handheld cameras hidden among the people catch moments as they happen. Nobody looks into the lens or shows anything to the camera. People stand at random spots, overlap and talk over each other; foreground heads often block part of the shot. Every shot is a glimpse of one continuous real-time event. The boys sing to each other as much as to anyone; the people around keep talking among themselves.
 
-HARD CUTS: exactly 14 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+HARD CUTS: exactly 12 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
-SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is gesture and laughter. Nobody inside the house ever sings — the chanting comes from the boys outside.
+SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is a quiet gesture.
+SINGING: only the five boys sing the lyrics from @audio1. Everyone else only talks quietly among themselves and never sings or mouths the lyrics; nobody inside the house sings.
+NO MONEY: no banknotes or money appear anywhere in frame; the father's hand only goes toward his pocket and is stopped.
 
 ACTIVE REFERENCES
 @image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
@@ -14,20 +16,18 @@ ACTIVE REFERENCES
 @audio1 — muffled chanting through the door until 8.4s, clear once the door opens, silence 10.0–12.3s, chant, snare roll from 16.1s, drum drop at 18.0s.
 
 SHOTS
-1 (0.0–1.5s) — Between relatives' shoulders: the iftar table, everyone talking, Pepsi and plov.
-2 (1.5–3.0s) — Muffled doira from outside: the father stops mid-sentence, eyebrows up; the grandfather is already digging into his robe for money.
-3 (3.0–4.5s) — As the chant begins, the father, the grandfather and the uncle all pull out banknotes at once, competing; the women laugh at them.
-4 (4.5–6.0s) — The father collects everyone's banknotes with a grin and heads down the hallway counting, kids trailing.
-5 (6.0–7.5s) — In the hallway he straightens his sweater and smooths the notes like a proud host.
-6 (7.5–8.4s) — Close: his thumb fans a thick stack of banknotes at the door.
-7 (8.4–10.0s) — The door opens: five boys on the step mid-chant.
-8 (10.0–12.3s) — Silence. He presents the fan of money with a flourish; the boys look at it, look at each other and shake their heads, grinning; his smile freezes.
-9 (12.3–14.4s) — Over the glasses boy's shoulder: he flips a yellow Pepsi cap, the code inside, as they chant "Pepsining qopqog'i bor"; behind the father the family peeks out, cracking up.
-10 (14.4–16.1s) — The father looks at the money, then at the cap, laughs and slaps his forehead; the boys chant "Qopqoq ostida kodi bor" and turn away.
-11 (16.1–17.1s) — Snare roll. The boys run out of the gate; the father calls after them, laughing.
-12 (17.1–18.0s) — Gates and windows open down the street, neighbours stepping out.
-13 (18.0–19.0s) — Drop. Low: bare palms slam a giant Pepsi-can drum.
-14 (19.0–20.0s) — The plump uncle unscrews a Pepsi at his gate and checks the code, joking with a neighbour — "Sariq qopqoqni oching".
+1 (0.0–2.0s) — Close at the iftar table: tea poured, hands passing non and Pepsi, relatives talking.
+2 (2.0–3.5s) — The grandfather keeps talking while his fingers tap the table in time with the faint doira from outside.
+3 (3.5–5.0s) — From the hallway: through the frosted glass of the front door, blurred silhouettes of five young men.
+4 (5.0–6.5s) — The father hears it, smiles and gets up from the table.
+5 (6.5–8.4s) — Following him loosely down the hallway, kids slipping past.
+6 (8.4–10.0s) — The door swings open; blue street light falls into the warm hallway; the five boys finish the line on the step as his hand starts toward his pocket.
+7 (10.0–12.3s) — Silence. From the side: a boy stops the hand with a light touch and a shake of the head; the others smile. The hand never comes out of the pocket.
+8 (12.3–14.4s) — Over the glasses boy's shoulder: he turns a yellow Pepsi cap in his fingers while the boys sing to each other.
+9 (14.4–16.1s) — The father laughs; the boys turn back to the street, still singing.
+10 (16.1–18.0s) — Snare roll. Down the street windows light up one after another and gates open; the boys walk out among the neighbours.
+11 (18.0–19.0s) — Drop. Low among people: bare palms hit a giant Pepsi-can drum.
+12 (19.0–20.0s) — At his gate the plump uncle silently unscrews a Pepsi cap and looks at the code.
 
 LIGHTING
 Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights.

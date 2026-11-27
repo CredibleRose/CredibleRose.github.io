@@ -1,6 +1,8 @@
 Fast-cut 20-second Ramadan commercial of 19 short shots, filmed like a candid documentary. On a mahalla square at blue hour, alternating high balcony views with ground-level moments; every high view shows the crowd bigger than before.
 
-DOCUMENTARY LOOK: handheld cameras hidden in the crowd catch moments as they happen. Nobody looks into the lens or shows a phone, cap or bottle to the camera. Dozens of people of all ages at random spots, overlapping, each busy with their own thing; foreground heads often block part of the shot. The boys play in a loose circle inside the crowd and sing to each other and to the neighbours next to them — never toward the camera, never like a stage show. Around them people keep talking to each other: greeting, joking, chatting over the music.
+DOCUMENTARY LOOK: handheld cameras hidden in the crowd catch moments as they happen. Nobody looks into the lens or shows a phone, cap or bottle to the camera. Dozens of people of all ages at random spots, each busy with their own thing; foreground heads often block part of the shot. The boys play in a loose circle inside the crowd and sing to each other and to the neighbours next to them — never toward the camera, never like a stage show. Around them people keep talking to each other: greeting, joking, chatting over the music.
+
+SINGING: only the five boys sing the lyrics from @audio1. Everyone else only talks quietly among themselves and never sings or mouths the lyrics.
 
 HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
@@ -14,24 +16,24 @@ ACTIVE REFERENCES
 @audio1 — chant over drums; drums stop at 16.0s; heavy final hits from 18.0s.
 
 SHOTS
-1 (0.0–1.0s) — High from a balcony: the square half full, the boys a small circle of drummers, people streaming in from their gates — "QR kodni skanerlang".
+1 (0.0–1.0s) — High from a balcony: the square half full, the boys a small circle of drummers, people streaming in from their gates.
 2 (1.0–2.0s) — Ground level over the girl's shoulder: she scans the QR on a Pepsi label, her friend chatting next to her.
-3 (2.0–3.0s) — Hands only: the uncle drops the yellow cap into the young man's palm mid-conversation — "Kodni Paynetga kiriting".
+3 (2.0–3.0s) — Hands only: the uncle drops the yellow cap into the young man's palm mid-conversation.
 4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14.
-5 (3.9–4.9s) — High again: the square fuller; in the middle the boys sing to each other while neighbours dance around them — "Omadingizni bir sinang!".
+5 (3.9–4.9s) — High again: the square fuller; in the middle the boys sing to each other while neighbours dance around them.
 6 (4.9–5.9s) — Ground: he taps the green button and crosses his fingers; friends lean over.
-7 (5.9–6.9s) — The uncle shows +5 000 so'm to the auntie, she laughs, he hands her a Pepsi — "Bir yarim million yutuq bor".
+7 (5.9–6.9s) — The uncle shows +5 000 so'm to the auntie, she laughs, he hands her a Pepsi.
 8 (6.9–7.9s) — High: the square packed now, people dancing, bottles passing overhead.
-9 (7.9–8.9s) — Over two friends' shoulders: the notification from @image15; they shout — "Besh mingdan yuz minggacha bor!".
+9 (7.9–8.9s) — Over two friends' shoulders: the notification from @image15; they laugh.
 10 (8.9–9.8s) — Friends pull him into a hug; a neighbour pushes a Pepsi into his hand.
-11 (9.8–10.8s) — High from the balcony: the Kia's headlights flash on at the edge of the square and the whole crowd turns toward it like a wave — "Kia Sonet Prime ham bor".
+11 (9.8–10.8s) — High from the balcony: the Kia's headlights flash on at the edge of the square and the whole crowd turns toward it like a wave.
 12 (10.8–11.8s) — Ground, between raised phones: the red bow on the Kia roof, the glowing podium.
-13 (11.8–12.8s) — At a gate the girl hands a Pepsi to the grandmother, chatting — "Sakkizta mashina bor!".
+13 (11.8–12.8s) — At a gate the girl hands a Pepsi to the grandmother, chatting.
 14 (12.8–13.8s) — Ground: the boys drumming with bare hands while neighbours joke with them.
-15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow — "Op chiqing, op chiqing".
+15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow.
 16 (15.0–16.0s) — Half-blocked by a passer-by: he hands a Pepsi to the curly boy, who touches his heart.
 17 (16.0–17.0s) — Drums stop. Following bottles hand to hand; the little girl runs one to her grandparents on the tapchan.
-18 (17.0–18.0s) — High from the balcony: bottles rise all over the packed square, not in sync — "Pepsi olib chiqing!".
+18 (17.0–18.0s) — High from the balcony: bottles rise all over the packed square, not in sync.
 19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
 
 LIGHTING

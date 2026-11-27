@@ -1,10 +1,12 @@
-Fast-cut 20-second Ramadan commercial of 14 short shots, filmed like a candid documentary. The whole part is seen from a child's eye level: the kids hear the song first, beat the father to the door and are first out into the street.
+Fast-cut 20-second Ramadan commercial of 12 short shots, filmed like a candid documentary. One continuous handheld path from the iftar table to the door and out into the street, chopped into short jump cuts along the way.
 
 DOCUMENTARY LOOK: handheld cameras hidden among the people catch moments as they happen. Nobody looks into the lens or shows anything to the camera. People stand at random spots, overlap and talk over each other; foreground heads often block part of the shot. Every shot is a glimpse of one continuous real-time event. The boys sing to each other as much as to anyone; the people around keep talking among themselves.
 
-HARD CUTS: exactly 14 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+HARD CUTS: exactly 12 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
 
-SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is gesture and laughter. Nobody inside the house ever sings — the chanting comes from the boys outside.
+SILENCE 10.0–12.3s: nobody speaks or sings; the refusal is a quiet gesture.
+SINGING: only the five boys sing the lyrics from @audio1. Everyone else only talks quietly among themselves and never sings or mouths the lyrics; nobody inside the house sings.
+NO MONEY: no banknotes or money appear anywhere in frame; the father's hand only goes toward his pocket and is stopped.
 
 ACTIVE REFERENCES
 @image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
@@ -14,20 +16,18 @@ ACTIVE REFERENCES
 @audio1 — muffled chanting through the door until 8.4s, clear once the door opens, silence 10.0–12.3s, chant, snare roll from 16.1s, drum drop at 18.0s.
 
 SHOTS
-1 (0.0–1.5s) — Camera at a child's eye level by the edge of the iftar table: elbows, hands passing plov and Pepsi above, laughter and talk.
-2 (1.5–3.0s) — The little girl and her brother exchange a look: they hear the muffled doira outside before anyone else.
-3 (3.0–4.5s) — The two kids slip off their chairs and sprint down the hallway toward the frosted front door; the chant gets louder.
-4 (4.5–6.0s) — Back at the table the father notices the empty chairs, hears the chant, smiles knowingly and gets up.
-5 (6.0–7.5s) — Low behind the kids at the door: the father's legs arrive between them, his hand patting his pocket.
-6 (7.5–8.4s) — Looking up from the kids' height: he pulls out folded banknotes; the girl tugs his sleeve, impatient.
-7 (8.4–10.0s) — The door opens; from knee height between the kids: five boys on the step mid-chant, grinning down at them.
-8 (10.0–12.3s) — Silence. Still low: the money hangs in the air above the kids; the boys laugh and wave it away; the curly boy winks at the girl.
-9 (12.3–14.4s) — The glasses boy crouches to the kids' level and flips a yellow Pepsi cap in front of the girl, the code inside, while the boys chant "Pepsining qopqog'i bor".
-10 (14.4–16.1s) — The girl spins and runs back toward the iftar table; the father laughs; the boys chant "Qopqoq ostida kodi bor" to each other and turn away.
-11 (16.1–17.1s) — Snare roll. Low tracking: the brother races the boys out through the gate into the street.
-12 (17.1–18.0s) — Kid height down the street: other kids burst out of their gates, pulling their parents by the hand.
-13 (18.0–19.0s) — Drop. Between kids' heads: bare palms slam a giant Pepsi-can drum.
-14 (19.0–20.0s) — A kid hands the plump uncle a Pepsi; he unscrews the cap and checks the code, laughing with the kid — "Sariq qopqoqni oching".
+1 (0.0–2.0s) — Handheld drifting along the iftar table at shoulder height: relatives eating and talking, Pepsi among the plates.
+2 (2.0–3.5s) — Jump cut further along the same move: the grandfather mid-story, the little girl reaching for a Pepsi.
+3 (3.5–5.0s) — Jump cut: the father at the head of the table hears the singing outside and smiles.
+4 (5.0–6.5s) — Jump cut: he is up and walking; the camera follows behind him into the hallway.
+5 (6.5–8.4s) — Jump cut: halfway down the hallway, kids overtaking him on the way to the door.
+6 (8.4–10.0s) — Jump cut: the door opens; his hand drifts toward his pocket as the five boys finish the line on the step.
+7 (10.0–12.3s) — Silence. Jump cut, closer: a boy catches his wrist before it reaches the pocket and shakes his head with a smile; the others laugh. The hand never comes out of the pocket.
+8 (12.3–14.4s) — Jump cut: the camera steps out onto the step among the boys singing to each other; the glasses boy turns a yellow Pepsi cap in his fingers.
+9 (14.4–16.1s) — Jump cut: the boys turn away from the door, still singing; the father watches them, laughing.
+10 (16.1–18.0s) — Snare roll. Jump cuts following the boys through the gate and down the street, neighbours coming out of their gates on both sides.
+11 (18.0–19.0s) — Drop. Jump cut into the middle of a forming crowd: bare palms hit a giant Pepsi-can drum.
+12 (19.0–20.0s) — Jump cut: the plump uncle at his gate silently unscrews a Pepsi cap and looks at the code.
 
 LIGHTING
 Warm golden interior light (3000K); outside blue hour, warm LED gate lamps and string lights.
