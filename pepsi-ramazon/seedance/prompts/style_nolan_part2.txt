@@ -1,12 +1,10 @@
-20-second Ramadan commercial of 19 short shots on a packed modern Tashkent mahalla square at blue hour.
+20-second Ramadan commercial of 16 shots on a packed modern Tashkent mahalla square at blue hour: Pepsi codes, a Paynet win, the Kia prize and the whole street celebrating together.
 
 STYLE: large-format cinematic realism — big steady compositions, slow deliberate push-ins, practical light only, deep inky blacks, cool night with warm practicals, fine film grain, restrained natural performances, tension built by cross-cutting between parallel actions.
 
-NATURAL BEHAVIOUR: people behave naturally and never pose or look into the lens; everyone is busy with their own thing and talks to each other. The boys play in a loose circle and sing to each other and to the people around, not to the camera. On the square someone is always giving, receiving or drinking a Pepsi, or hugging someone. MOOD: warm, kind and joyful, like the night the whole street comes out together to celebrate New Year. The party keeps growing shot by shot; every street frame is layered — passers-by crossing close in front of the lens, people congratulating and hugging behind, someone stepping out of a house far back. Many women and girls wear neat modern headscarves; hugs only between men or between women.
+CUTS: exactly 16 shots, cutting only at the marked times on the beat of @audio1. Every shot is staged and moved in the camera language above.
 
-RULES: only the five boys sing the lyrics from @audio1; everyone else just talks. Hugs only between men or between women; men and women never hug or touch. DRINKING: each person sips from their own bottle while chatting; bottles never touch and are never raised toward each other — no toasts. The boys mostly play yellow cap doiras held up at shoulder height, struck with their fingers; tall Pepsi-can drums are played standing, never between the knees.
-
-HARD CUTS: exactly 19 shots, cutting only at the marked times on the beat of @audio1; each shot a new angle. No dissolves.
+RULES: only the five boys sing the lyrics from @audio1; everyone else just talks; nobody looks into the lens or poses. Hugs only between men or between women; men and women never hug or touch. Each person drinks from their own bottle; bottles never touch, no toasts. The boys play yellow cap doiras held up at shoulder height, struck with their fingers; tall Pepsi-can drums are played standing, never between the knees; no drumsticks. Dozens of neighbours, many women and girls in neat modern headscarves; the crowd grows from shot to shot, warm and joyful like a New Year night on the street.
 
 ACTIVE REFERENCES
 @image1 lead boy (curly, blue vest) · @image2 tall boy (red track jacket) · @image3 varsity jacket · @image4 glasses, denim jacket · @image5 navy fleece — the five boys, all 18, boyish faces, no facial hair.
@@ -17,34 +15,29 @@ ACTIVE REFERENCES
 @image16 — the Kia Sonet Prime prize with the red bow on its podium.
 @audio1 — chant over drums; drums stop at 16.0s; heavy final hits from 18.0s.
 
-STYLE BEATS: Intercut the young man waiting for the result with the drummers in widening shots; the Kia reveal is a slow, silent wide before the lights hit.
-
 SHOTS
-1 (0.0–1.0s) — Over the girl's shoulder: her phone scans the QR on a Pepsi label, her friend in a headscarf leans in; a passer-by crosses right in front of the lens; behind them two men shake hands and congratulate each other, further back two women hug, and far back a neighbour steps out of his gate.
-2 (1.0–2.0s) — Two boys play their yellow cap doiras held high, striking with their fingers and singing to each other; behind them two elderly men meet and hug, one presses a Pepsi into the other's hand.
-3 (2.0–3.0s) — Hands only: the uncle drops the yellow cap into the young man's palm mid-conversation.
-4 (3.0–3.9s) — Over his shoulder: he types the code into the screen from @image14; someone bumps past in front, and behind him two old men laugh over their Pepsi.
-5 (3.9–4.9s) — Close: the curly boy's doira raised at shoulder height, his fingers drumming the skin, jingles shaking; next to him a neighbour hands the red-jacket boy a Pepsi and he takes a quick sip.
-6 (4.9–5.9s) — From the side: he taps the green button and crosses his fingers; friends lean over him.
-7 (5.9–6.9s) — Off-centre: the uncle shows his phone to the auntie, she laughs, he hands her a Pepsi.
-8 (6.9–7.9s) — Among the tables: dozens of neighbours chatting and drinking Pepsi, each from their own bottle; on the tapchan the grandfather takes a long sip, eyes closed with pleasure, while the boys play doiras nearby.
-9 (7.9–8.9s) — Over two friends' shoulders: his screen lights up with the notification from @image15; they laugh.
-10 (8.9–9.8s) — His male friends grab him in a jumping hug; a neighbour pushes a Pepsi into his hand from the side.
-11 (9.8–10.8s) — From the back of the crowd: behind the drummers the Kia flashes its headlights on, heads turn; on a balcony above, a man who has just stepped out to see what's going on freezes, staring.
-12 (10.8–11.8s) — Between raised phones: the red bow on the Kia roof, the glowing podium.
-13 (11.8–12.8s) — At a gate, past passers-by: the girl hands a Pepsi to the grandmother, who takes it with both hands, and the two women hug.
-14 (12.8–13.8s) — Two young women in headscarves look at one phone, squeal with joy at a win and hug each other, Pepsi bottles in their hands.
-15 (13.8–15.0s) — From the side: the father squeezes out of his door with an armful of Pepsi, nudging it with his elbow.
-16 (15.0–16.0s) — Half-blocked by a passer-by: he hands a Pepsi to the curly boy, who touches his heart.
-17 (16.0–17.0s) — Drums stop. All over the square people hand Pepsi to each other — a man to his neighbour, a girl to her friend, the little girl to her grandparents on the tapchan.
-18 (17.0–18.0s) — From an upstairs window, past a neighbour in a doppi who has just leaned out to see what's going on: the whole packed square is drinking Pepsi together — dozens of neighbours each sipping from their own bottle while they talk and laugh.
-19 (18.0–20.0s) — Final hits. Slow push-in on a table under the pergola: a Pepsi bottle, its yellow cap beside it, round non, dates, a teapot; neighbours laughing in warm bokeh.
+1 (0.0–1.5s) — Slow aerial wide: the packed square at blue hour, dozens of people, string lights, light haze.
+2 (1.5–2.5s) — Cross-cut close: the girl's phone locking onto the QR on a Pepsi label, her friend in a headscarf beside her.
+3 (2.5–3.9s) — The young man types the code into @image14; in deep focus behind him neighbours drink Pepsi and two old men hug.
+4 (3.9–4.9s) — Wide: the boys play doiras in a circle inside a crowd that is visibly larger.
+5 (4.9–5.9s) — Close on his thumb over the green button; hold.
+6 (5.9–6.9s) — Cross-cut: the uncle shows the auntie his phone, she claps; he gives her a Pepsi.
+7 (6.9–7.9s) — Wide among the tapchans: rows of neighbours drinking Pepsi.
+8 (7.9–8.9s) — The notification from @image15; his face; a beat of stillness, then a shout.
+9 (8.9–9.8s) — His male friends grab him in a hug.
+10 (9.8–11.8s) — The Kia reveal: a vast silent wide, the crowd small and dark in the haze as the headlights cut on; on a balcony a man who has just come out stands frozen.
+11 (11.8–12.8s) — The girl hands the grandmother a Pepsi; the two women hug.
+12 (12.8–13.8s) — Two young women in headscarves look at one phone and hug, Pepsi in hand.
+13 (13.8–15.0s) — The father comes out of his door with an armful of Pepsi.
+14 (15.0–16.0s) — He gives one to the curly boy, who touches his heart.
+15 (16.0–18.0s) — Drums stop. Slow rising aerial over the square: everyone handing Pepsi to each other and drinking; at the edges neighbours still coming out of their gates.
+16 (18.0–20.0s) — Final hits: locked-off close of the table — Pepsi, yellow cap, non, dates, teapot — the crowd soft behind.
 
 LIGHTING
-Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on. Keep the dark evening exposure of the references in every shot: deep blue sky, deep shadows, light only from lamps, windows and headlights. Never brighten the image; headlights add beams, not brightness.
+Blue hour, warm gate lamps, string lights, light haze lit by the Kia headlights from the Kia shot on. Keep the dark evening exposure of the references in every shot: deep blue sky, deep shadows, light only from lamps, windows and headlights. Never brighten the image.
 
 AUDIO
 @audio1 as music and chant; crowd noise, a notification ping on the win.
 
 OUTPUT
-16:9, 20 seconds, real-time speed, photoreal, cinematic commercial in the style described above. No drumsticks. No subtitles. No on-screen text except the phone screens.
+16:9, 20 seconds, photoreal cinematic commercial in the style described above. No subtitles. No on-screen text except the phone screens.
